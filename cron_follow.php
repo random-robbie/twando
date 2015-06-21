@@ -281,9 +281,9 @@ if ($run_cron == true) {
       follow request. $content->protected sometimes returns 1 not true as listed in the API guide.
       If already followed, should return 403 but check error message just in case 200 is returned
       */
-
+	  print_r($content);
       $protected_acc = 0;
-      if ( ($content->protected) or (preg_match("/already requested to follow/i",$content->error)) ) {
+      if (isset($content->protected) or (preg_match("/already requested to follow/i",$content->errors->message)) ) {
        $protected_acc = 1;
       }
 

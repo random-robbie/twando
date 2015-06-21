@@ -158,7 +158,7 @@ class cronFuncs {
    }
 
    //Throttle check
-   $var_name = 'throttle_api_time_ ' . $fr_or_fw;
+   $var_name = 'throttle_api_time_'.$fr_or_fw.'';
    if ($this->$var_name > 0) {
     sleep($this->$var_name);
    }
@@ -359,7 +359,8 @@ class cronFuncs {
 
   //Get rate limit in API 1.1 Format
   $rate_con = $connection->get('application/rate_limit_status',array("resources" => 'followers,friends,users'));
-
+  
+  
   //Friends and followers
   $return_array['fw_remaining'] = $rate_con->resources->followers->{'/followers/ids'}->remaining;
   $return_array['fw_limit'] = $rate_con->resources->followers->{'/followers/ids'}->limit;
@@ -369,7 +370,7 @@ class cronFuncs {
   $return_array['fr_reset'] = $rate_con->resources->friends->{'/friends/ids'}->reset - gmmktime();
 
   //Users
-  $return_array['us_remaining'] = $rate_con->resources->users->{'/users/show'}->remaining;
+  $return_array['us_remaining'] = $rate_con->resources->users->{'/users/show/:id'}->remaining;
   $return_array['ul_remaining'] = $rate_con->resources->users->{'/users/lookup'}->remaining;
 
   return $return_array;
