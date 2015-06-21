@@ -3,7 +3,9 @@
 Twando.com Free PHP Twitter Application
 http://www.twando.com/
 */
+require "vendor/autoload.php";
 
+use Abraham\TwitterOAuth\TwitterOAuth;
 include('inc/include_top.php');
 
 //Twitter can be slow
@@ -18,7 +20,7 @@ $ap_creds = $db->get_ap_creds();
 
 //Connect to Twitter
 $connection = new TwitterOAuth($ap_creds['consumer_key'], $ap_creds['consumer_secret'], $_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
-$access_token = $connection->getAccessToken($_REQUEST['oauth_verifier']);
+$access_token = $connection->oauth("oauth/access_token", array("oauth_verifier" => $_REQUEST['oauth_verifier']));
 $_SESSION['access_token'] = $access_token;
 
 //Remove request tokens
@@ -26,7 +28,7 @@ unset($_SESSION['oauth_token']);
 unset($_SESSION['oauth_token_secret']);
 
 //Check response
-if ($connection->http_code == 200) {
+if ($connection->getLastHttpCode() == 200) {
  //All OK, store credentials in database for this user
  $access_token = $_SESSION['access_token'];
  $connection = new TwitterOAuth($ap_creds['consumer_key'], $ap_creds['consumer_secret'], $access_token['oauth_token'], $access_token['oauth_token_secret']);

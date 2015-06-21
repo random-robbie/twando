@@ -2,7 +2,7 @@
 
 global $header_info;
 $header_info['js_scripts'] =  '<script type="text/javascript" src="inc/scripts/anytime.c.js"></script>' . "\n" . '<link rel="stylesheet" type="text/css" href="inc/scripts/anytime.c.css" />' . "\n" .'<script type="text/javascript" src="inc/scripts/jquery.form.js"></script>' . "\n" . '<script type="text/javascript" src="inc/scripts/jquery.form.min.js"></script>' . "\n" . '';
-
+if (empty($header_info['on_load'])) { $header_info['on_load'] = ""; }
 ?>
 <!DOCTYPE html>
 <html>

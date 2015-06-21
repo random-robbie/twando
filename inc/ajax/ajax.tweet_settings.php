@@ -57,11 +57,19 @@ if (mainFuncs::is_logged_in() != true) {
   case 'tab5':
    if ($_REQUEST['tweet_content']) {
    $imageurl = file_get_contents($_REQUEST['tweet_image']);
+if (strpos($http_response_header[0], "200")) { 
    $imagefilemd5name = md5 ($_REQUEST['tweet_image']);
    $imagefile = "".UPLOAD_DIR."".$imagefilemd5name.".jpg";
    $myfile = fopen($imagefile, "w") or die("Unable to open file!");
    fwrite($myfile, $imageurl);
    fclose($myfile);
+} else { 
+   echo "FAILED";
+   exit();
+}
+   
+   
+   
     $db->query("INSERT INTO " . DB_PREFIX . "scheduled_tweets (owner_id, tweet_content, tweet_image, time_to_post)
     		 VALUES ('" . $db->prep($q1a['id']) . "','" . $db->prep($_REQUEST['tweet_content']) . "','" . $db->prep($imagefile) . "','" . $db->prep($_REQUEST['time_to_post']) . "')");
     $response_msg = mainFuncs::push_response(18);

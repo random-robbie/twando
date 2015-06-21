@@ -20,6 +20,9 @@ $response_msg = "";
 <?php
 if ( (!$ap_creds['consumer_key']) or (!$ap_creds['consumer_secret']) ) {
 ?>
+<?php 
+if (empty($_POST['consumer_key'])) { $_POST['consumer_key'] = NULL;}
+if (empty($_POST['consumer_secret'])) { $_POST['consumer_secret'] = NULL; } ?>
 <h2>Register Your Application</h2>
 Before you can start using Twando, you must first register your application with Twitter.
 <ol>

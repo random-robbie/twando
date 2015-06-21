@@ -4,6 +4,8 @@ Twando.com Free PHP Twitter Application
 http://www.twando.com/
 */
 
+
+
  //Show content here
  if ($_REQUEST['tab_id']) {
   //Show content based on tab ID
@@ -64,7 +66,7 @@ while ($q2a = $db->fetch_array($q2)) {
   $page_switch = 1;
  }
 ?>
-
+<? if (empty($_REQUEST['a'])) { $_REQUEST['a'] = NULL; } ?>
 <?php
 if ( ($_REQUEST['a'] == 'edittweet') and ($_REQUEST['edittweet_id'] == $q2a['id']) ) {
 ?>

@@ -1,14 +1,13 @@
-<?php
+#<?php
 /*
 Twando.com Free PHP Twitter Application
 http://www.twando.com/
 */
+require "vendor/autoload.php";
 
+use Abraham\TwitterOAuth\TwitterOAuth;
 include('inc/include_top.php');
 include('inc/class/class.cron.php');
-require "vendor/autoload.php";
-use Abraham\TwitterOAuth\TwitterOAuth;
-include('vendor/abraham/twitteroauth/src/TwitterOAuth.php');
 
 $cron = new cronFuncs();
 
