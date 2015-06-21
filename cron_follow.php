@@ -156,15 +156,17 @@ if ($run_cron == true) {
    //Get array of new users
    $fw_fr_types = array(
     		       'fw_new' => $cron_txts[7],
-   		       'fw_gone' =>  $cron_txts[8],
+   		       		'fw_gone' =>  $cron_txts[8],
                        'fr_new' =>  $cron_txts[9],
                        'fr_gone' =>  $cron_txts[10]
                        );
+                       
    $data_array = array();
    $data_array = $cron->get_id_changes();
 
    //Loop through and log data
    foreach ($fw_fr_types as $key => $text) {
+   
     if ((sizeof($data_array[$key])) > 0) {
      //Log row
      if ((sizeof($data_array[$key])) == 1) {$text = str_replace($cron_txts[11],$cron_txts[12],$text);}
@@ -281,7 +283,7 @@ if ($run_cron == true) {
       follow request. $content->protected sometimes returns 1 not true as listed in the API guide.
       If already followed, should return 403 but check error message just in case 200 is returned
       */
-	  print_r($content);
+	  
       $protected_acc = 0;
       if (isset($content->protected) or (preg_match("/already requested to follow/i",$content->errors->message)) ) {
        $protected_acc = 1;
