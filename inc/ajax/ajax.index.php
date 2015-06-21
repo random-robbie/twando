@@ -3,7 +3,9 @@
 Twando.com Free PHP Twitter Application
 http://www.twando.com/
 */
+require "../../vendor/autoload.php";
 
+use Abraham\TwitterOAuth\TwitterOAuth;
 include('../include_top.php');
 
 if (mainFuncs::is_logged_in() != true) {
