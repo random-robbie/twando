@@ -98,8 +98,9 @@ if (mainFuncs::is_logged_in() != true) {
   `id` int(11) NOT NULL auto_increment,
   `owner_id` varchar(48) NOT NULL,
   `tweet_content` text NOT NULL,
-  `tweet_image` text NOT NULL,
+  `tweet_image` varchar(999) DEFAULT NULL,
   `time_to_post` datetime NOT NULL,
+  `everyday` varchar(1) DEFAULT NULL,
   PRIMARY KEY  (`id`),
   KEY `owner_id` (`owner_id`),
   KEY `time_to_post` (`time_to_post`)

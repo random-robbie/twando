@@ -3,6 +3,20 @@ twando more
 
 Monitor your followers, auto follow and unfollow, auto DM new followers, schedule tweets, search &amp; mass follow new users and much, much more.
 
+My Version Additions 
+=====================
+
+tweets with images 
+every day tweets that will tweet once a day until removed.
+using latest twitter OAuth installed with composer.
+99% of errors that would display with error reporting now not showing.
+
+Known Issues
+================
+
+When searching user based there are errors showing but not affecting it working.
+appears to be due to script getting users last tweet but if they are protected it's value is not available
+
 
 Requirements
 ======
