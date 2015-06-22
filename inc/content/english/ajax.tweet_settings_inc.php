@@ -198,8 +198,8 @@ Time to post tweet:
 ?>
  <?=$response_msg?>
  <form method="post" action="tweet_settings.php?id=<?=$q1a['id']?>" name="bulkcsvupload" id="bulkcsvupload" enctype="multipart/form-data">
- You can upload a CSV of as many tweets as you like below. The CSV should have 2 columns (no headers are required). Column one should have the post date and time in mySQL format (YYYY-MM-DD HH:MM). Column two
- should contain what you want to tweet (<a href="inc/csv/example.csv" target="_blank">example</a>).
+ You can upload a CSV of as many tweets as you like below. The CSV should have 4 columns (no headers are required). Column one should have the post date and time in mySQL format (YYYY-MM-DD HH:MM). Column two
+ should contain what you want to tweet Column 3 Image URL And Column 4 is if this is an every 24 hour tweet(<a href="inc/csv/example.csv" target="_blank">example</a>).
  <br /><br />
  <input type="file" name="csv_file" id="csv_file" class="input_box_style" />
  <br />
