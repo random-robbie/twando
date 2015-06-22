@@ -81,9 +81,14 @@ if ($run_cron == true) {
     $cron->store_cron_log(2,$cron_txts[18] . $q2a['tweet_content'] . $cron_txts[20],'');
    }
 
+	if ($q2a['everyday'] == "1")
+	{
+		//Add 24 hours on to time when it should tweet
+		$db->query("UPDATE " . DB_PREFIX . "scheduled_tweets SET time_to_post = (time_to_post + INTERVAL 24 HOUR) WHERE owner_id = '" . $db->prep($q1a['id']) . "' AND id = '" . $q2a['id'] . "'");
+	} else {
    //Delete the tweet
    $db->query("DELETE FROM " . DB_PREFIX . "scheduled_tweets WHERE owner_id = '" . $db->prep($q1a['id']) . "' AND id = '" . $q2a['id'] . "'");
-
+	}
   }
 
  //End of db loop

@@ -47,11 +47,14 @@ if (mainFuncs::is_logged_in() != true) {
   break;
 
   case 'tab3':
-   if ($_REQUEST['tweet_content']) {
-    $db->query("INSERT INTO " . DB_PREFIX . "scheduled_tweets (owner_id, tweet_content, time_to_post)
-    		 VALUES ('" . $db->prep($q1a['id']) . "','" . $db->prep($_REQUEST['tweet_content']) . "','" . $db->prep($_REQUEST['time_to_post']) . "')");
+   if ($_REQUEST['tweet_content']) 
+   {
+	  $db->query("INSERT INTO " . DB_PREFIX . "scheduled_tweets (owner_id, tweet_content, time_to_post, everyday)
+    		 VALUES ('" . $db->prep($q1a['id']) . "','" . $db->prep($_REQUEST['tweet_content']) . "','" . $db->prep($_REQUEST['time_to_post']) . "','" . $db->prep($_REQUEST['everyday']) . "')");
     $response_msg = mainFuncs::push_response(18);
    }
+ 
+   
   break;
   
   case 'tab5':
@@ -70,8 +73,8 @@ if (strpos($http_response_header[0], "200")) {
    
    
    
-    $db->query("INSERT INTO " . DB_PREFIX . "scheduled_tweets (owner_id, tweet_content, tweet_image, time_to_post)
-    		 VALUES ('" . $db->prep($q1a['id']) . "','" . $db->prep($_REQUEST['tweet_content']) . "','" . $db->prep($imagefile) . "','" . $db->prep($_REQUEST['time_to_post']) . "')");
+    $db->query("INSERT INTO " . DB_PREFIX . "scheduled_tweets (owner_id, tweet_content, tweet_image, time_to_post, everyday)
+    		 VALUES ('" . $db->prep($q1a['id']) . "','" . $db->prep($_REQUEST['tweet_content']) . "','" . $db->prep($imagefile) . "','" . $db->prep($_REQUEST['time_to_post']) . "','" . $db->prep($_REQUEST['everyday']) . "')");
     $response_msg = mainFuncs::push_response(18);
    }
   break;

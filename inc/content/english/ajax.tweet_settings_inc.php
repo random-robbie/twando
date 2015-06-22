@@ -157,6 +157,12 @@ if ($total_pages > 1) {
 <form method="post" action="" name="scheduletweet_form" id="scheduletweet_form"  onsubmit="ajax_tweet_settings_update('tab3','scheduletweet_form'); return false;">
 Tweet content:<br />
 <textarea name="tweet_content" id="tweet_content" class="input_box_style" style="height: 70px; width: 400px;" onkeyup="$('#count_box').val($('#tweet_content').val().length);"></textarea><br />
+Tweet This Everyday at this time: <br />
+<select name="everyday">
+  <option value="0">No</option>
+  <option value="1">Yes</option>
+  </select>
+<br />
 Characters: <input type="text" name="count_box" id="count_box" size="3" value="0" class="input_box_style" style="width: 30px;"  />
 <br />
 Time to post tweet:
@@ -213,6 +219,12 @@ Tweet content:<br />
 <textarea name="tweet_content" id="tweet_content" class="input_box_style" style="height: 70px; width: 400px;" onkeyup="$('#count_box').val($('#tweet_content').val().length);"></textarea><br />
 <br />Image Url
 <input type="text" name="tweet_image" id="tweet_image" value="http://"><br />
+<br />
+Tweet This Everyday at this time: <br />
+<select name="everyday">
+  <option value="0">No</option>
+  <option value="1">Yes</option>
+  </select>
 <br />
 Characters: <input type="text" name="count_box" id="count_box" size="3" value="0" class="input_box_style" style="width: 30px;"  />
 Time to post tweet:
