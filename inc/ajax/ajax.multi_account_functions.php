@@ -93,7 +93,48 @@ if (mainFuncs::is_logged_in() != true) {
      $response_msg = mainFuncs::push_response(31);
 
    }
+	break;
+	
+	case 'tab5':
+	if ( ($_REQUEST['a'] == 'quicktweet_withimage') and ($_REQUEST['tweet_content']) and ($_REQUEST['tweet_image'])) {
+	if ($_REQUEST['tweet_content']) {
+	$imageurl = file_get_contents($_REQUEST['tweet_image']);
+	if (strpos($http_response_header[0], "200")) { 
+   $imagefilemd5name = md5 ($_REQUEST['tweet_image']);
+   $imagefile = "".UPLOAD_DIR."".$imagefilemd5name.".jpg";
+   $myfile = fopen($imagefile, "w") or die("Unable to open file!");
+   fwrite($myfile, $imageurl);
+   fclose($myfile);
+   
+   //Get Data
+    $ap_creds = $db->get_ap_creds();
+    $ua  = $db->get_all_user_data();
+    foreach ($ua as $this_id => $this_data) {
+     $connection = new TwitterOAuth($ap_creds['consumer_key'], $ap_creds['consumer_secret'], $this_data['oauth_token'], $this_data['oauth_token_secret']);
+     $media1 = $connection->upload('media/upload', array('media' => $imagefile));
+	 $parameters = array(
+    'status' => $_REQUEST['tweet_content'],
+    'media_ids' => implode(',', array($media1->media_id_string,)),
+	);
+	$connection->post('statuses/update', $parameters);
+	 
+	 
+	 
+    }
 
+     //Response message - nothing too descriptive really required here
+     $response_msg = mainFuncs::push_response(31);
+
+   }
+
+	 else { 
+   echo "FAILED";
+   exit();
+}
+	}
+	}
+	
+	
    break;
   //End of tab switch
   }

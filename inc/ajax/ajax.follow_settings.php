@@ -180,9 +180,11 @@ if (mainFuncs::is_logged_in() != true) {
 
        if ($content) {
         foreach ($content as $user_row) {
+        if (empty($user_row->status->text)) { $user_row->status->text  = new stdClass(); $user_row->status->text = "N/A"; }
+        
          if (!$db->is_on_fr_list($_REQUEST['twitter_id'],$user_row->id_str)) {
           $returned_users[$user_row->id_str] = array("screen_name" => $user_row->screen_name,
-       					             "profile_image_url" => $user_row->profile_image_url,
+       					             				 "profile_image_url" => $user_row->profile_image_url,
                                                      "full_name" => $user_row->name,
                                                      "followers_count" => $user_row->followers_count,
                                                      "friends_count" => $user_row->friends_count,

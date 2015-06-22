@@ -54,6 +54,23 @@ Characters: <input type="text" name="count_box" id="count_box" size="3" value="0
 <input type="submit" value="Post Tweet" class="submit_button_style" onclick="ajax_multi_account_update('tab3','quicktweet_form');" />
 <?php
    break;
+   case 'tab5':
+   ?>
+   <h2>Multi Tweet with Image</h2>
+<?=$response_msg?>
+Post the following tweet from all your Twitter accounts at once:<br />
+<form method="post" action="" name="quicktweet_withimage_form" id="quicktweet_withimage_form" onsubmit="ajax_multi_account_update('tab5','quicktweet_withimage_form'); return false;">
+<textarea name="tweet_content" id="tweet_content" class="input_box_style" style="height: 70px; width: 400px;" onkeyup="$('#count_box').val($('#tweet_content').val().length);"></textarea><br />
+URL :<input type="text" name="tweet_image" id="tweet_image" value="http://">
+<br />
+Characters: <input type="text" name="count_box" id="count_box" size="3" value="0" class="input_box_style" style="width: 30px;"  />
+</div>
+<br style="clear: both;" />
+<input type="hidden" name="a" value="quicktweet_withimage" />
+</form>
+<input type="submit" value="Post Tweet" class="submit_button_style" onclick="ajax_multi_account_update('tab5','quicktweet_withimage_form');" />
+   <?php
+   break;
   //End of switch
   }
  //End of if $_REQUEST['tab_id']

@@ -27,6 +27,9 @@ if ($db->num_rows($qcheck) < 2)  {
 </div><div class="tab_main" id="tab3">
  <a href="javascript:ajax_multi_account_tab('tab3');">Multi Tweet</a>
 </div>
+<div class="tab_main" id="tab5">
+ <a href="javascript:ajax_multi_account_tab('tab5');">Multi Tweet With Image</a>
+</div>
 </div>
 
 <br style="clear: both;" />
