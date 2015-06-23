@@ -1,0 +1,3273 @@
+stdClass Object
+(
+    [users] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => 2863205844
+                    [id_str] => 2863205844
+                    [name] => Ken Booth
+                    [screen_name] => KboothKen
+                    [location] => 
+                    [description] => 
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 188
+                    [friends_count] => 307
+                    [listed_count] => 3
+                    [created_at] => Sat Oct 18 18:46:25 +0000 2014
+                    [favourites_count] => 204
+                    [utc_offset] => -18000
+                    [time_zone] => Central Time (US & Canada)
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 95
+                    [lang] => en
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Mon May 25 12:59:04 +0000 2015
+                            [id] => 602821181339762688
+                            [id_str] => 602821181339762688
+                            [text] => 50,000+ getting ready to start!! #bolderboulder #justhopetofinish #awesomeexperience http://t.co/8fNVznvS9j
+                            [source] => <a href="http://www.apple.com" rel="nofollow">iOS</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweet_count] => 0
+                            [favorite_count] => 3
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [text] => bolderboulder
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 33
+                                                            [1] => 47
+                                                        )
+
+                                                )
+
+                                            [1] => stdClass Object
+                                                (
+                                                    [text] => justhopetofinish
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 48
+                                                            [1] => 65
+                                                        )
+
+                                                )
+
+                                            [2] => stdClass Object
+                                                (
+                                                    [text] => awesomeexperience
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 66
+                                                            [1] => 84
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                    [media] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [id] => 602821181251690496
+                                                    [id_str] => 602821181251690496
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 85
+                                                            [1] => 107
+                                                        )
+
+                                                    [media_url] => http://pbs.twimg.com/media/CF2mq6OWoAA62Dq.jpg
+                                                    [media_url_https] => https://pbs.twimg.com/media/CF2mq6OWoAA62Dq.jpg
+                                                    [url] => http://t.co/8fNVznvS9j
+                                                    [display_url] => pic.twitter.com/8fNVznvS9j
+                                                    [expanded_url] => http://twitter.com/KboothKen/status/602821181339762688/photo/1
+                                                    [type] => photo
+                                                    [sizes] => stdClass Object
+                                                        (
+                                                            [small] => stdClass Object
+                                                                (
+                                                                    [w] => 340
+                                                                    [h] => 255
+                                                                    [resize] => fit
+                                                                )
+
+                                                            [medium] => stdClass Object
+                                                                (
+                                                                    [w] => 600
+                                                                    [h] => 450
+                                                                    [resize] => fit
+                                                                )
+
+                                                            [thumb] => stdClass Object
+                                                                (
+                                                                    [w] => 150
+                                                                    [h] => 150
+                                                                    [resize] => crop
+                                                                )
+
+                                                            [large] => stdClass Object
+                                                                (
+                                                                    [w] => 1024
+                                                                    [h] => 768
+                                                                    [resize] => fit
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => C0DEED
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/551090658791133184/_tV2kJuJ_normal.jpeg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/551090658791133184/_tV2kJuJ_normal.jpeg
+                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/2863205844/1420073002
+                    [profile_link_color] => 0084B4
+                    [profile_sidebar_border_color] => C0DEED
+                    [profile_sidebar_fill_color] => DDEEF6
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 1
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [1] => stdClass Object
+                (
+                    [id] => 390406793
+                    [id_str] => 390406793
+                    [name] => Ryan
+                    [screen_name] => RyMJf
+                    [location] => PA
+                    [description] => Will change views when presented with sufficient evidence or reason to do so.
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 193
+                    [friends_count] => 617
+                    [listed_count] => 7
+                    [created_at] => Thu Oct 13 22:54:46 +0000 2011
+                    [favourites_count] => 58
+                    [utc_offset] => -14400
+                    [time_zone] => Eastern Time (US & Canada)
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 937
+                    [lang] => en
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Tue Jun 23 13:24:46 +0000 2015
+                            [id] => 613336900233920512
+                            [id_str] => 613336900233920512
+                            [text] => This is scary... https://t.co/iXFQZgVB23
+                            [source] => <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweet_count] => 0
+                            [favorite_count] => 0
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => https://t.co/iXFQZgVB23
+                                                    [expanded_url] => https://twitter.com/ScienceNews/status/613331176456081408
+                                                    [display_url] => twitter.com/ScienceNews/st…
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 17
+                                                            [1] => 40
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => 000000
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme18/bg.gif
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme18/bg.gif
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/590314402861092865/6e4VtpLV_normal.jpg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/590314402861092865/6e4VtpLV_normal.jpg
+                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/390406793/1399174143
+                    [profile_link_color] => 4A913C
+                    [profile_sidebar_border_color] => 000000
+                    [profile_sidebar_fill_color] => 000000
+                    [profile_text_color] => 000000
+                    [profile_use_background_image] => 
+                    [default_profile] => 
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [2] => stdClass Object
+                (
+                    [id] => 3332812827
+                    [id_str] => 3332812827
+                    [name] => Ben
+                    [screen_name] => Bensmens
+                    [location] => 
+                    [description] => 
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 0
+                    [friends_count] => 8
+                    [listed_count] => 0
+                    [created_at] => Thu Jun 18 15:46:08 +0000 2015
+                    [favourites_count] => 0
+                    [utc_offset] => 
+                    [time_zone] => 
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 0
+                    [lang] => fr
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => 000000
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/611561379024273409/2aPzxkIL_normal.jpg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/611561379024273409/2aPzxkIL_normal.jpg
+                    [profile_link_color] => 3B94D9
+                    [profile_sidebar_border_color] => 000000
+                    [profile_sidebar_fill_color] => 000000
+                    [profile_text_color] => 000000
+                    [profile_use_background_image] => 
+                    [default_profile] => 
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [3] => stdClass Object
+                (
+                    [id] => 2574426230
+                    [id_str] => 2574426230
+                    [name] => Copperkin Tech
+                    [screen_name] => CopperkinTech
+                    [location] => United Kingdom
+                    [description] => 
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 11
+                    [friends_count] => 50
+                    [listed_count] => 0
+                    [created_at] => Wed Jun 18 08:27:53 +0000 2014
+                    [favourites_count] => 0
+                    [utc_offset] => 3600
+                    [time_zone] => London
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 83
+                    [lang] => en-gb
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Tue Jun 23 13:31:59 +0000 2015
+                            [id] => 613338716539592704
+                            [id_str] => 613338716539592704
+                            [text] => RT @tech_faq: Happy Birthday to Alan Turing, born 23 June 1912.
+                            [source] => <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweeted_status] => stdClass Object
+                                (
+                                    [created_at] => Tue Jun 23 12:00:02 +0000 2015
+                                    [id] => 613315573112377344
+                                    [id_str] => 613315573112377344
+                                    [text] => Happy Birthday to Alan Turing, born 23 June 1912.
+                                    [source] => <a href="http://www.tech-faq.com/" rel="nofollow">Tech FAQ Web Integration</a>
+                                    [truncated] => 
+                                    [in_reply_to_status_id] => 
+                                    [in_reply_to_status_id_str] => 
+                                    [in_reply_to_user_id] => 
+                                    [in_reply_to_user_id_str] => 
+                                    [in_reply_to_screen_name] => 
+                                    [geo] => 
+                                    [coordinates] => 
+                                    [place] => 
+                                    [contributors] => 
+                                    [retweet_count] => 55
+                                    [favorite_count] => 25
+                                    [entities] => stdClass Object
+                                        (
+                                            [hashtags] => Array
+                                                (
+                                                )
+
+                                            [symbols] => Array
+                                                (
+                                                )
+
+                                            [user_mentions] => Array
+                                                (
+                                                )
+
+                                            [urls] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [favorited] => 
+                                    [retweeted] => 
+                                    [lang] => en
+                                )
+
+                            [retweet_count] => 55
+                            [favorite_count] => 0
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [screen_name] => tech_faq
+                                                    [name] => Tech-FAQ
+                                                    [id] => 323138380
+                                                    [id_str] => 323138380
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 3
+                                                            [1] => 12
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [lang] => en
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 1
+                    [profile_background_color] => C0DEED
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/479190232298840065/e_1dkGP1_normal.jpeg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/479190232298840065/e_1dkGP1_normal.jpeg
+                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/2574426230/1404296655
+                    [profile_link_color] => 0084B4
+                    [profile_sidebar_border_color] => C0DEED
+                    [profile_sidebar_fill_color] => DDEEF6
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 1
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [4] => stdClass Object
+                (
+                    [id] => 340906555
+                    [id_str] => 340906555
+                    [name] => lion
+                    [screen_name] => lion322
+                    [location] => 
+                    [description] => 
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 1
+                    [followers_count] => 1
+                    [friends_count] => 19
+                    [listed_count] => 0
+                    [created_at] => Sat Jul 23 13:45:05 +0000 2011
+                    [favourites_count] => 0
+                    [utc_offset] => 28800
+                    [time_zone] => Beijing
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 9
+                    [lang] => en
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => C0DEED
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://abs.twimg.com/sticky/default_profile_images/default_profile_3_normal.png
+                    [profile_image_url_https] => https://abs.twimg.com/sticky/default_profile_images/default_profile_3_normal.png
+                    [profile_link_color] => 0084B4
+                    [profile_sidebar_border_color] => C0DEED
+                    [profile_sidebar_fill_color] => DDEEF6
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 1
+                    [default_profile_image] => 1
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [5] => stdClass Object
+                (
+                    [id] => 124805208
+                    [id_str] => 124805208
+                    [name] => Emir Cano
+                    [screen_name] => e_mi_r
+                    [location] => Cancún, Benito Juárez
+                    [description] => Me gusta la Tecnología
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 23
+                    [friends_count] => 36
+                    [listed_count] => 1
+                    [created_at] => Sat Mar 20 16:35:25 +0000 2010
+                    [favourites_count] => 21
+                    [utc_offset] => -18000
+                    [time_zone] => Bogota
+                    [geo_enabled] => 1
+                    [verified] => 
+                    [statuses_count] => 394
+                    [lang] => es
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Tue Jun 23 15:00:40 +0000 2015
+                            [id] => 613361031713173504
+                            [id_str] => 613361031713173504
+                            [text] => RT @revistaproceso: Videgaray, el candidato del fracaso / un análisis de @Alvaro_Delgado http://t.co/0z4A30OikQ
+                            [source] => <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweeted_status] => stdClass Object
+                                (
+                                    [created_at] => Tue Jun 23 02:31:54 +0000 2015
+                                    [id] => 613172597765898240
+                                    [id_str] => 613172597765898240
+                                    [text] => Videgaray, el candidato del fracaso / un análisis de @Alvaro_Delgado http://t.co/0z4A30OikQ
+                                    [source] => <a href="http://www.hootsuite.com" rel="nofollow">Hootsuite</a>
+                                    [truncated] => 
+                                    [in_reply_to_status_id] => 
+                                    [in_reply_to_status_id_str] => 
+                                    [in_reply_to_user_id] => 
+                                    [in_reply_to_user_id_str] => 
+                                    [in_reply_to_screen_name] => 
+                                    [geo] => 
+                                    [coordinates] => 
+                                    [place] => 
+                                    [contributors] => 
+                                    [retweet_count] => 100
+                                    [favorite_count] => 54
+                                    [entities] => stdClass Object
+                                        (
+                                            [hashtags] => Array
+                                                (
+                                                )
+
+                                            [symbols] => Array
+                                                (
+                                                )
+
+                                            [user_mentions] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [screen_name] => alvaro_delgado
+                                                            [name] => Alvaro Delgado Gómez
+                                                            [id] => 82788234
+                                                            [id_str] => 82788234
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 53
+                                                                    [1] => 68
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [urls] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [url] => http://t.co/0z4A30OikQ
+                                                            [expanded_url] => http://ow.ly/OEOKv
+                                                            [display_url] => ow.ly/OEOKv
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 69
+                                                                    [1] => 91
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [favorited] => 
+                                    [retweeted] => 
+                                    [possibly_sensitive] => 
+                                    [lang] => es
+                                )
+
+                            [retweet_count] => 100
+                            [favorite_count] => 0
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [screen_name] => revistaproceso
+                                                    [name] => Proceso
+                                                    [id] => 41156599
+                                                    [id_str] => 41156599
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 3
+                                                            [1] => 18
+                                                        )
+
+                                                )
+
+                                            [1] => stdClass Object
+                                                (
+                                                    [screen_name] => alvaro_delgado
+                                                    [name] => Alvaro Delgado Gómez
+                                                    [id] => 82788234
+                                                    [id_str] => 82788234
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 73
+                                                            [1] => 88
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/0z4A30OikQ
+                                                    [expanded_url] => http://ow.ly/OEOKv
+                                                    [display_url] => ow.ly/OEOKv
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 89
+                                                            [1] => 111
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => es
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => 000000
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/378800000035540338/e507b08acf90ab0d051c7785c297b343_normal.jpeg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/378800000035540338/e507b08acf90ab0d051c7785c297b343_normal.jpeg
+                    [profile_link_color] => FA743E
+                    [profile_sidebar_border_color] => 000000
+                    [profile_sidebar_fill_color] => 000000
+                    [profile_text_color] => 000000
+                    [profile_use_background_image] => 
+                    [default_profile] => 
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [6] => stdClass Object
+                (
+                    [id] => 147730268
+                    [id_str] => 147730268
+                    [name] => Rosalie
+                    [screen_name] => rosalieinc
+                    [location] => 
+                    [description] => Biz Dev @Skysenseinc - Charging Infrastructure for Commercial #Drones. Love: tech, travel, people, learning, robotics, startups, dogs,  r&b & possibilities! : )
+                    [url] => http://t.co/ifSPDO8nDH
+                    [entities] => stdClass Object
+                        (
+                            [url] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/ifSPDO8nDH
+                                                    [expanded_url] => http://www.linkedin.com/in/rosaliebartlett
+                                                    [display_url] => linkedin.com/in/rosaliebart…
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 0
+                                                            [1] => 22
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 11843
+                    [friends_count] => 12247
+                    [listed_count] => 102
+                    [created_at] => Mon May 24 22:28:20 +0000 2010
+                    [favourites_count] => 5625
+                    [utc_offset] => -25200
+                    [time_zone] => Pacific Time (US & Canada)
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 4932
+                    [lang] => en
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Tue Jun 23 15:09:19 +0000 2015
+                            [id] => 613363210289188864
+                            [id_str] => 613363210289188864
+                            [text] => 30+ #Drone Companies are hiring. Including @3DRobotics, @DJIGlobal, @Amazon, @DroneDeploy, @Google + more! List = http://t.co/V54ufgJCRB
+                            [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweet_count] => 0
+                            [favorite_count] => 0
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [text] => Drone
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 4
+                                                            [1] => 10
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [screen_name] => 3DRobotics
+                                                    [name] => 3D Robotics
+                                                    [id] => 155992471
+                                                    [id_str] => 155992471
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 43
+                                                            [1] => 54
+                                                        )
+
+                                                )
+
+                                            [1] => stdClass Object
+                                                (
+                                                    [screen_name] => DJIGlobal
+                                                    [name] => DJI
+                                                    [id] => 1227920058
+                                                    [id_str] => 1227920058
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 56
+                                                            [1] => 66
+                                                        )
+
+                                                )
+
+                                            [2] => stdClass Object
+                                                (
+                                                    [screen_name] => amazon
+                                                    [name] => Amazon
+                                                    [id] => 20793816
+                                                    [id_str] => 20793816
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 68
+                                                            [1] => 75
+                                                        )
+
+                                                )
+
+                                            [3] => stdClass Object
+                                                (
+                                                    [screen_name] => DroneDeploy
+                                                    [name] => DroneDeploy
+                                                    [id] => 1407123218
+                                                    [id_str] => 1407123218
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 77
+                                                            [1] => 89
+                                                        )
+
+                                                )
+
+                                            [4] => stdClass Object
+                                                (
+                                                    [screen_name] => google
+                                                    [name] => Google
+                                                    [id] => 20536157
+                                                    [id_str] => 20536157
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 91
+                                                            [1] => 98
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/V54ufgJCRB
+                                                    [expanded_url] => http://eepurl.com/bq29j1
+                                                    [display_url] => eepurl.com/bq29j1
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 114
+                                                            [1] => 136
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => FFFFFF
+                    [profile_background_image_url] => http://pbs.twimg.com/profile_background_images/217491064/kivaloans.jpg
+                    [profile_background_image_url_https] => https://pbs.twimg.com/profile_background_images/217491064/kivaloans.jpg
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/455172315211247616/7LC3pRs8_normal.jpeg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/455172315211247616/7LC3pRs8_normal.jpeg
+                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/147730268/1427581765
+                    [profile_link_color] => 40AD4B
+                    [profile_sidebar_border_color] => EEEEEE
+                    [profile_sidebar_fill_color] => FFFFFF
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [7] => stdClass Object
+                (
+                    [id] => 3162981567
+                    [id_str] => 3162981567
+                    [name] => Daniele
+                    [screen_name] => DanieleViktorm8
+                    [location] => 
+                    [description] => 
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 5
+                    [friends_count] => 14
+                    [listed_count] => 0
+                    [created_at] => Mon Apr 13 08:41:22 +0000 2015
+                    [favourites_count] => 0
+                    [utc_offset] => 
+                    [time_zone] => 
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 1
+                    [lang] => it
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Mon Jun 22 19:16:00 +0000 2015
+                            [id] => 613062902661160960
+                            [id_str] => 613062902661160960
+                            [text] => RT @TELADOIOLANIUS: La ministra Boschi: “Per colpa del M5S e di SEL rischiamo di non dare più soldi alla scuola privata" http://t.co/HLOnpP…
+                            [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweeted_status] => stdClass Object
+                                (
+                                    [created_at] => Mon Jun 22 06:00:00 +0000 2015
+                                    [id] => 612862580298772480
+                                    [id_str] => 612862580298772480
+                                    [text] => La ministra Boschi: “Per colpa del M5S e di SEL rischiamo di non dare più soldi alla scuola privata" http://t.co/HLOnpPtTWF
+                                    [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                                    [truncated] => 
+                                    [in_reply_to_status_id] => 
+                                    [in_reply_to_status_id_str] => 
+                                    [in_reply_to_user_id] => 
+                                    [in_reply_to_user_id_str] => 
+                                    [in_reply_to_screen_name] => 
+                                    [geo] => 
+                                    [coordinates] => 
+                                    [place] => 
+                                    [contributors] => 
+                                    [retweet_count] => 20
+                                    [favorite_count] => 11
+                                    [entities] => stdClass Object
+                                        (
+                                            [hashtags] => Array
+                                                (
+                                                )
+
+                                            [symbols] => Array
+                                                (
+                                                )
+
+                                            [user_mentions] => Array
+                                                (
+                                                )
+
+                                            [urls] => Array
+                                                (
+                                                )
+
+                                            [media] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [id] => 612862579208097792
+                                                            [id_str] => 612862579208097792
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 101
+                                                                    [1] => 123
+                                                                )
+
+                                                            [media_url] => http://pbs.twimg.com/media/CIFTRMnUEAAEPuP.jpg
+                                                            [media_url_https] => https://pbs.twimg.com/media/CIFTRMnUEAAEPuP.jpg
+                                                            [url] => http://t.co/HLOnpPtTWF
+                                                            [display_url] => pic.twitter.com/HLOnpPtTWF
+                                                            [expanded_url] => http://twitter.com/TELADOIOLANIUS/status/612862580298772480/photo/1
+                                                            [type] => photo
+                                                            [sizes] => stdClass Object
+                                                                (
+                                                                    [large] => stdClass Object
+                                                                        (
+                                                                            [w] => 385
+                                                                            [h] => 192
+                                                                            [resize] => fit
+                                                                        )
+
+                                                                    [medium] => stdClass Object
+                                                                        (
+                                                                            [w] => 385
+                                                                            [h] => 192
+                                                                            [resize] => fit
+                                                                        )
+
+                                                                    [thumb] => stdClass Object
+                                                                        (
+                                                                            [w] => 150
+                                                                            [h] => 150
+                                                                            [resize] => crop
+                                                                        )
+
+                                                                    [small] => stdClass Object
+                                                                        (
+                                                                            [w] => 340
+                                                                            [h] => 169
+                                                                            [resize] => fit
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [favorited] => 
+                                    [retweeted] => 
+                                    [possibly_sensitive] => 
+                                    [lang] => it
+                                )
+
+                            [retweet_count] => 20
+                            [favorite_count] => 0
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [screen_name] => TELADOIOLANIUS
+                                                    [name] => TELADOIOLANIUS
+                                                    [id] => 1469191586
+                                                    [id_str] => 1469191586
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 3
+                                                            [1] => 18
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                    [media] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [id] => 612862579208097792
+                                                    [id_str] => 612862579208097792
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 121
+                                                            [1] => 140
+                                                        )
+
+                                                    [media_url] => http://pbs.twimg.com/media/CIFTRMnUEAAEPuP.jpg
+                                                    [media_url_https] => https://pbs.twimg.com/media/CIFTRMnUEAAEPuP.jpg
+                                                    [url] => http://t.co/HLOnpPtTWF
+                                                    [display_url] => pic.twitter.com/HLOnpPtTWF
+                                                    [expanded_url] => http://twitter.com/TELADOIOLANIUS/status/612862580298772480/photo/1
+                                                    [type] => photo
+                                                    [sizes] => stdClass Object
+                                                        (
+                                                            [large] => stdClass Object
+                                                                (
+                                                                    [w] => 385
+                                                                    [h] => 192
+                                                                    [resize] => fit
+                                                                )
+
+                                                            [medium] => stdClass Object
+                                                                (
+                                                                    [w] => 385
+                                                                    [h] => 192
+                                                                    [resize] => fit
+                                                                )
+
+                                                            [thumb] => stdClass Object
+                                                                (
+                                                                    [w] => 150
+                                                                    [h] => 150
+                                                                    [resize] => crop
+                                                                )
+
+                                                            [small] => stdClass Object
+                                                                (
+                                                                    [w] => 340
+                                                                    [h] => 169
+                                                                    [resize] => fit
+                                                                )
+
+                                                        )
+
+                                                    [source_status_id] => 612862580298772480
+                                                    [source_status_id_str] => 612862580298772480
+                                                    [source_user_id] => 1469191586
+                                                    [source_user_id_str] => 1469191586
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => it
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => C0DEED
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://abs.twimg.com/sticky/default_profile_images/default_profile_4_normal.png
+                    [profile_image_url_https] => https://abs.twimg.com/sticky/default_profile_images/default_profile_4_normal.png
+                    [profile_link_color] => 0084B4
+                    [profile_sidebar_border_color] => C0DEED
+                    [profile_sidebar_fill_color] => DDEEF6
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 1
+                    [default_profile_image] => 1
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [8] => stdClass Object
+                (
+                    [id] => 3153556655
+                    [id_str] => 3153556655
+                    [name] => Lolga_gt
+                    [screen_name] => lolga_gt
+                    [location] => 
+                    [description] => 
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 32
+                    [friends_count] => 301
+                    [listed_count] => 0
+                    [created_at] => Fri Apr 10 11:41:56 +0000 2015
+                    [favourites_count] => 24
+                    [utc_offset] => 
+                    [time_zone] => 
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 23
+                    [lang] => de
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Tue Jun 23 14:50:40 +0000 2015
+                            [id] => 613358515718127616
+                            [id_str] => 613358515718127616
+                            [text] => http://t.co/GwoYe1r7p7
+                            [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweet_count] => 0
+                            [favorite_count] => 0
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/GwoYe1r7p7
+                                                    [expanded_url] => http://streetschau.myblog.de/streetschau/art/9071714/Sheepo-surfwear-Be-aware-of-the-chico-#CID_12844510
+                                                    [display_url] => streetschau.myblog.de/streetschau/ar…
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 0
+                                                            [1] => 22
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => und
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => C0DEED
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/586495110587613184/Zm_ebm8-_normal.jpg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/586495110587613184/Zm_ebm8-_normal.jpg
+                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/3153556655/1428666369
+                    [profile_link_color] => 0084B4
+                    [profile_sidebar_border_color] => C0DEED
+                    [profile_sidebar_fill_color] => DDEEF6
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 1
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [9] => stdClass Object
+                (
+                    [id] => 68375890
+                    [id_str] => 68375890
+                    [name] => GEMS Lean Solutions
+                    [screen_name] => skosarsoy
+                    [location] => Ataşehir, İstanbul
+                    [description] => Üretimi yeniden tasarlıyoruz,
+tasarladıklarınızı üretiyoruz.
+                    [url] => http://t.co/3tDjolGeTR
+                    [entities] => stdClass Object
+                        (
+                            [url] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/3tDjolGeTR
+                                                    [expanded_url] => http://www.leangems.com
+                                                    [display_url] => leangems.com
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 0
+                                                            [1] => 22
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 210
+                    [friends_count] => 173
+                    [listed_count] => 4
+                    [created_at] => Mon Aug 24 10:14:44 +0000 2009
+                    [favourites_count] => 15
+                    [utc_offset] => 
+                    [time_zone] => 
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 43
+                    [lang] => tr
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Tue Jun 23 14:44:18 +0000 2015
+                            [id] => 613356913498157056
+                            [id_str] => 613356913498157056
+                            [text] => RT @IndustryWeek: 10 principles of organization design  http://t.co/OpJngO7LgU http://t.co/2Z8ZcHfQqv
+                            [source] => <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweeted_status] => stdClass Object
+                                (
+                                    [created_at] => Tue Jun 23 14:19:16 +0000 2015
+                                    [id] => 613350612474970112
+                                    [id_str] => 613350612474970112
+                                    [text] => 10 principles of organization design  http://t.co/OpJngO7LgU http://t.co/2Z8ZcHfQqv
+                                    [source] => <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+                                    [truncated] => 
+                                    [in_reply_to_status_id] => 
+                                    [in_reply_to_status_id_str] => 
+                                    [in_reply_to_user_id] => 
+                                    [in_reply_to_user_id_str] => 
+                                    [in_reply_to_screen_name] => 
+                                    [geo] => 
+                                    [coordinates] => 
+                                    [place] => 
+                                    [contributors] => 
+                                    [retweet_count] => 2
+                                    [favorite_count] => 1
+                                    [entities] => stdClass Object
+                                        (
+                                            [hashtags] => Array
+                                                (
+                                                )
+
+                                            [symbols] => Array
+                                                (
+                                                )
+
+                                            [user_mentions] => Array
+                                                (
+                                                )
+
+                                            [urls] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [url] => http://t.co/OpJngO7LgU
+                                                            [expanded_url] => http://buff.ly/1GEn0cS
+                                                            [display_url] => buff.ly/1GEn0cS
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 38
+                                                                    [1] => 60
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [media] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [id] => 613350612374319105
+                                                            [id_str] => 613350612374319105
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 61
+                                                                    [1] => 83
+                                                                )
+
+                                                            [media_url] => http://pbs.twimg.com/media/CIMPId1W8AEbm8P.jpg
+                                                            [media_url_https] => https://pbs.twimg.com/media/CIMPId1W8AEbm8P.jpg
+                                                            [url] => http://t.co/2Z8ZcHfQqv
+                                                            [display_url] => pic.twitter.com/2Z8ZcHfQqv
+                                                            [expanded_url] => http://twitter.com/IndustryWeek/status/613350612474970112/photo/1
+                                                            [type] => photo
+                                                            [sizes] => stdClass Object
+                                                                (
+                                                                    [large] => stdClass Object
+                                                                        (
+                                                                            [w] => 595
+                                                                            [h] => 335
+                                                                            [resize] => fit
+                                                                        )
+
+                                                                    [thumb] => stdClass Object
+                                                                        (
+                                                                            [w] => 150
+                                                                            [h] => 150
+                                                                            [resize] => crop
+                                                                        )
+
+                                                                    [small] => stdClass Object
+                                                                        (
+                                                                            [w] => 340
+                                                                            [h] => 191
+                                                                            [resize] => fit
+                                                                        )
+
+                                                                    [medium] => stdClass Object
+                                                                        (
+                                                                            [w] => 595
+                                                                            [h] => 335
+                                                                            [resize] => fit
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [favorited] => 
+                                    [retweeted] => 
+                                    [possibly_sensitive] => 
+                                    [lang] => en
+                                )
+
+                            [retweet_count] => 2
+                            [favorite_count] => 0
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [screen_name] => IndustryWeek
+                                                    [name] => IndustryWeek
+                                                    [id] => 17371068
+                                                    [id_str] => 17371068
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 3
+                                                            [1] => 16
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/OpJngO7LgU
+                                                    [expanded_url] => http://buff.ly/1GEn0cS
+                                                    [display_url] => buff.ly/1GEn0cS
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 56
+                                                            [1] => 78
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [media] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [id] => 613350612374319105
+                                                    [id_str] => 613350612374319105
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 79
+                                                            [1] => 101
+                                                        )
+
+                                                    [media_url] => http://pbs.twimg.com/media/CIMPId1W8AEbm8P.jpg
+                                                    [media_url_https] => https://pbs.twimg.com/media/CIMPId1W8AEbm8P.jpg
+                                                    [url] => http://t.co/2Z8ZcHfQqv
+                                                    [display_url] => pic.twitter.com/2Z8ZcHfQqv
+                                                    [expanded_url] => http://twitter.com/IndustryWeek/status/613350612474970112/photo/1
+                                                    [type] => photo
+                                                    [sizes] => stdClass Object
+                                                        (
+                                                            [large] => stdClass Object
+                                                                (
+                                                                    [w] => 595
+                                                                    [h] => 335
+                                                                    [resize] => fit
+                                                                )
+
+                                                            [thumb] => stdClass Object
+                                                                (
+                                                                    [w] => 150
+                                                                    [h] => 150
+                                                                    [resize] => crop
+                                                                )
+
+                                                            [small] => stdClass Object
+                                                                (
+                                                                    [w] => 340
+                                                                    [h] => 191
+                                                                    [resize] => fit
+                                                                )
+
+                                                            [medium] => stdClass Object
+                                                                (
+                                                                    [w] => 595
+                                                                    [h] => 335
+                                                                    [resize] => fit
+                                                                )
+
+                                                        )
+
+                                                    [source_status_id] => 613350612474970112
+                                                    [source_status_id_str] => 613350612474970112
+                                                    [source_user_id] => 17371068
+                                                    [source_user_id_str] => 17371068
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => C0DEED
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/606549566561751041/2xCNLIYZ_normal.jpg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/606549566561751041/2xCNLIYZ_normal.jpg
+                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/68375890/1433447659
+                    [profile_link_color] => 0084B4
+                    [profile_sidebar_border_color] => C0DEED
+                    [profile_sidebar_fill_color] => DDEEF6
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 1
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [10] => stdClass Object
+                (
+                    [id] => 3110237111
+                    [id_str] => 3110237111
+                    [name] => Wireless IoT Forum
+                    [screen_name] => WIoT_Forum
+                    [location] => United Kingdom
+                    [description] => We aim to facilitate the widespread adoption of wireless wide-area networking technologies dedicated to the 'Internet of Things’.
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 179
+                    [friends_count] => 439
+                    [listed_count] => 10
+                    [created_at] => Tue Mar 24 12:47:06 +0000 2015
+                    [favourites_count] => 11
+                    [utc_offset] => 3600
+                    [time_zone] => Dublin
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 36
+                    [lang] => en
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Tue Jun 23 15:02:53 +0000 2015
+                            [id] => 613361592294580224
+                            [id_str] => 613361592294580224
+                            [text] => RT @Cisco: Discover how #SmartCities save $14M/year in street lighting alone in our new #GraphicNovel. http://t.co/Dnf2ituDbR http://t.co/c…
+                            [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweeted_status] => stdClass Object
+                                (
+                                    [created_at] => Mon Jun 22 05:00:01 +0000 2015
+                                    [id] => 612847485258743808
+                                    [id_str] => 612847485258743808
+                                    [text] => Discover how #SmartCities save $14M/year in street lighting alone in our new #GraphicNovel. http://t.co/Dnf2ituDbR http://t.co/cm3AEPhIDM
+                                    [source] => <a href="http://www.sprinklr.com" rel="nofollow">Sprinklr</a>
+                                    [truncated] => 
+                                    [in_reply_to_status_id] => 
+                                    [in_reply_to_status_id_str] => 
+                                    [in_reply_to_user_id] => 
+                                    [in_reply_to_user_id_str] => 
+                                    [in_reply_to_screen_name] => 
+                                    [geo] => 
+                                    [coordinates] => 
+                                    [place] => 
+                                    [contributors] => 
+                                    [retweet_count] => 71
+                                    [favorite_count] => 24
+                                    [entities] => stdClass Object
+                                        (
+                                            [hashtags] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [text] => SmartCities
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 13
+                                                                    [1] => 25
+                                                                )
+
+                                                        )
+
+                                                    [1] => stdClass Object
+                                                        (
+                                                            [text] => GraphicNovel
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 77
+                                                                    [1] => 90
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [symbols] => Array
+                                                (
+                                                )
+
+                                            [user_mentions] => Array
+                                                (
+                                                )
+
+                                            [urls] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [url] => http://t.co/Dnf2ituDbR
+                                                            [expanded_url] => http://cs.co/6015BBHGU
+                                                            [display_url] => cs.co/6015BBHGU
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 92
+                                                                    [1] => 114
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [media] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [id] => 612847485212598272
+                                                            [id_str] => 612847485212598272
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 115
+                                                                    [1] => 137
+                                                                )
+
+                                                            [media_url] => http://pbs.twimg.com/media/CIFFinGWoAAg1PD.jpg
+                                                            [media_url_https] => https://pbs.twimg.com/media/CIFFinGWoAAg1PD.jpg
+                                                            [url] => http://t.co/cm3AEPhIDM
+                                                            [display_url] => pic.twitter.com/cm3AEPhIDM
+                                                            [expanded_url] => http://twitter.com/Cisco/status/612847485258743808/photo/1
+                                                            [type] => photo
+                                                            [sizes] => stdClass Object
+                                                                (
+                                                                    [large] => stdClass Object
+                                                                        (
+                                                                            [w] => 1024
+                                                                            [h] => 538
+                                                                            [resize] => fit
+                                                                        )
+
+                                                                    [medium] => stdClass Object
+                                                                        (
+                                                                            [w] => 600
+                                                                            [h] => 315
+                                                                            [resize] => fit
+                                                                        )
+
+                                                                    [thumb] => stdClass Object
+                                                                        (
+                                                                            [w] => 150
+                                                                            [h] => 150
+                                                                            [resize] => crop
+                                                                        )
+
+                                                                    [small] => stdClass Object
+                                                                        (
+                                                                            [w] => 340
+                                                                            [h] => 178
+                                                                            [resize] => fit
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [favorited] => 
+                                    [retweeted] => 
+                                    [possibly_sensitive] => 
+                                    [lang] => en
+                                )
+
+                            [retweet_count] => 71
+                            [favorite_count] => 0
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [text] => SmartCities
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 24
+                                                            [1] => 36
+                                                        )
+
+                                                )
+
+                                            [1] => stdClass Object
+                                                (
+                                                    [text] => GraphicNovel
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 88
+                                                            [1] => 101
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [screen_name] => Cisco
+                                                    [name] => Cisco
+                                                    [id] => 15749983
+                                                    [id_str] => 15749983
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 3
+                                                            [1] => 9
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/Dnf2ituDbR
+                                                    [expanded_url] => http://cs.co/6015BBHGU
+                                                    [display_url] => cs.co/6015BBHGU
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 103
+                                                            [1] => 125
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [media] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [id] => 612847485212598272
+                                                    [id_str] => 612847485212598272
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 126
+                                                            [1] => 140
+                                                        )
+
+                                                    [media_url] => http://pbs.twimg.com/media/CIFFinGWoAAg1PD.jpg
+                                                    [media_url_https] => https://pbs.twimg.com/media/CIFFinGWoAAg1PD.jpg
+                                                    [url] => http://t.co/cm3AEPhIDM
+                                                    [display_url] => pic.twitter.com/cm3AEPhIDM
+                                                    [expanded_url] => http://twitter.com/Cisco/status/612847485258743808/photo/1
+                                                    [type] => photo
+                                                    [sizes] => stdClass Object
+                                                        (
+                                                            [large] => stdClass Object
+                                                                (
+                                                                    [w] => 1024
+                                                                    [h] => 538
+                                                                    [resize] => fit
+                                                                )
+
+                                                            [medium] => stdClass Object
+                                                                (
+                                                                    [w] => 600
+                                                                    [h] => 315
+                                                                    [resize] => fit
+                                                                )
+
+                                                            [thumb] => stdClass Object
+                                                                (
+                                                                    [w] => 150
+                                                                    [h] => 150
+                                                                    [resize] => crop
+                                                                )
+
+                                                            [small] => stdClass Object
+                                                                (
+                                                                    [w] => 340
+                                                                    [h] => 178
+                                                                    [resize] => fit
+                                                                )
+
+                                                        )
+
+                                                    [source_status_id] => 612847485258743808
+                                                    [source_status_id_str] => 612847485258743808
+                                                    [source_user_id] => 15749983
+                                                    [source_user_id_str] => 15749983
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => 74305A
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/580352921906200576/hG-bVNpE_normal.jpg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/580352921906200576/hG-bVNpE_normal.jpg
+                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/3110237111/1427202039
+                    [profile_link_color] => 2C333D
+                    [profile_sidebar_border_color] => 000000
+                    [profile_sidebar_fill_color] => 000000
+                    [profile_text_color] => 000000
+                    [profile_use_background_image] => 
+                    [default_profile] => 
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [11] => stdClass Object
+                (
+                    [id] => 2648477315
+                    [id_str] => 2648477315
+                    [name] => David Slawinski
+                    [screen_name] => SlawinskiDavid
+                    [location] => 
+                    [description] => 
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 8
+                    [friends_count] => 171
+                    [listed_count] => 0
+                    [created_at] => Sat Jun 28 00:41:08 +0000 2014
+                    [favourites_count] => 2
+                    [utc_offset] => 
+                    [time_zone] => 
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 1
+                    [lang] => pl
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Tue Jun 09 17:55:20 +0000 2015
+                            [id] => 608331559343681536
+                            [id_str] => 608331559343681536
+                            [text] => The Fallen of World War II - Data-driven documentary about war &amp; peace http://t.co/iPYmdy4xs4 przez @neilhalloran
+                            [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweet_count] => 0
+                            [favorite_count] => 0
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [screen_name] => neilhalloran
+                                                    [name] => Neil Halloran
+                                                    [id] => 80201928
+                                                    [id_str] => 80201928
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 104
+                                                            [1] => 117
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/iPYmdy4xs4
+                                                    [expanded_url] => http://www.fallen.io/ww2/
+                                                    [display_url] => fallen.io/ww2/
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 75
+                                                            [1] => 97
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => C0DEED
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/482685286120710144/UPo2cgD-_normal.jpeg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/482685286120710144/UPo2cgD-_normal.jpeg
+                    [profile_link_color] => 0084B4
+                    [profile_sidebar_border_color] => C0DEED
+                    [profile_sidebar_fill_color] => DDEEF6
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 1
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [12] => stdClass Object
+                (
+                    [id] => 2864912760
+                    [id_str] => 2864912760
+                    [name] => 3Dvieweronline
+                    [screen_name] => 3dvieweronline
+                    [location] => 
+                    [description] => 
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 1
+                    [friends_count] => 40
+                    [listed_count] => 0
+                    [created_at] => Sun Oct 19 12:43:25 +0000 2014
+                    [favourites_count] => 1
+                    [utc_offset] => 
+                    [time_zone] => 
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 2
+                    [lang] => it
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Tue Jun 23 14:17:54 +0000 2015
+                            [id] => 613350270899200001
+                            [id_str] => 613350270899200001
+                            [text] => Hi there we are on twitter! Our tag: #3dvieweronline 
+Our new website: http://t.co/gq6sMIVwGs
+Our 3dviewer in action: http://t.co/3WV94GF0DA
+                            [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweet_count] => 1
+                            [favorite_count] => 2
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [text] => 3dvieweronline
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 37
+                                                            [1] => 52
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/gq6sMIVwGs
+                                                    [expanded_url] => http://www.3dvieweronline.com
+                                                    [display_url] => 3dvieweronline.com
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 71
+                                                            [1] => 93
+                                                        )
+
+                                                )
+
+                                            [1] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/3WV94GF0DA
+                                                    [expanded_url] => http://www.3dvieweronline.com/members/Id9bf31c7ff062936a96d3c8bd1f8f2ff3/kSTjqaYQJXE2lqK
+                                                    [display_url] => 3dvieweronline.com/members/Id9bf3…
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 118
+                                                            [1] => 140
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => C0DEED
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/525662132575412224/wAH4ShkS_normal.jpeg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/525662132575412224/wAH4ShkS_normal.jpeg
+                    [profile_link_color] => 0084B4
+                    [profile_sidebar_border_color] => C0DEED
+                    [profile_sidebar_fill_color] => DDEEF6
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 1
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [13] => stdClass Object
+                (
+                    [id] => 2408546502
+                    [id_str] => 2408546502
+                    [name] => Expo 2015 News
+                    [screen_name] => Expo2015News
+                    [location] => Milan - Italy 
+                    [description] => #expo2015 #madeinitaly #italy
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 12428
+                    [friends_count] => 1659
+                    [listed_count] => 119
+                    [created_at] => Mon Mar 24 07:33:20 +0000 2014
+                    [favourites_count] => 196
+                    [utc_offset] => 10800
+                    [time_zone] => Athens
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 12707
+                    [lang] => it
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Tue Jun 23 15:15:06 +0000 2015
+                            [id] => 613364666664906753
+                            [id_str] => 613364666664906753
+                            [text] => eVeryride vince il primo premio dell'Edison StartUp Challenge 2015 - Sharemag http://t.co/Moqpgxnxul
+                            [source] => <a href="http://ifttt.com" rel="nofollow">IFTTT</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweet_count] => 0
+                            [favorite_count] => 0
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/Moqpgxnxul
+                                                    [expanded_url] => http://ift.tt/1K9QXp2
+                                                    [display_url] => ift.tt/1K9QXp2
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 78
+                                                            [1] => 100
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => it
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => 022330
+                    [profile_background_image_url] => http://pbs.twimg.com/profile_background_images/474134653687693312/i9b0T0Pw.jpeg
+                    [profile_background_image_url_https] => https://pbs.twimg.com/profile_background_images/474134653687693312/i9b0T0Pw.jpeg
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/474134331825197057/CnirW7jp_normal.jpeg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/474134331825197057/CnirW7jp_normal.jpeg
+                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/2408546502/1435071697
+                    [profile_link_color] => 0084B4
+                    [profile_sidebar_border_color] => FFFFFF
+                    [profile_sidebar_fill_color] => C0DFEC
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [14] => stdClass Object
+                (
+                    [id] => 565572217
+                    [id_str] => 565572217
+                    [name] => Matt
+                    [screen_name] => matjahu
+                    [location] => 
+                    [description] => Open everything freak and self-supply hacker. @edgeryders and @themakerfox co-founder, #EarthOS author.
+                    [url] => http://t.co/LiofRYLEJ2
+                    [entities] => stdClass Object
+                        (
+                            [url] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/LiofRYLEJ2
+                                                    [expanded_url] => http://ma.juii.net/
+                                                    [display_url] => ma.juii.net
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 0
+                                                            [1] => 22
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 608
+                    [friends_count] => 1418
+                    [listed_count] => 58
+                    [created_at] => Sat Apr 28 16:36:50 +0000 2012
+                    [favourites_count] => 1235
+                    [utc_offset] => 7200
+                    [time_zone] => Amsterdam
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 3707
+                    [lang] => en
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Tue Jun 23 09:23:51 +0000 2015
+                            [id] => 613276270940389376
+                            [id_str] => 613276270940389376
+                            [text] => @massimosanti GREAT hint! We want two-way content for our project, but will dig into :) @matt_fortini @alberto_cottica @edgeryders
+                            [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 613273123375435776
+                            [in_reply_to_status_id_str] => 613273123375435776
+                            [in_reply_to_user_id] => 12551742
+                            [in_reply_to_user_id_str] => 12551742
+                            [in_reply_to_screen_name] => alberto_cottica
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweet_count] => 0
+                            [favorite_count] => 0
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [screen_name] => massimosanti
+                                                    [name] => massimo santi
+                                                    [id] => 116174052
+                                                    [id_str] => 116174052
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 0
+                                                            [1] => 13
+                                                        )
+
+                                                )
+
+                                            [1] => stdClass Object
+                                                (
+                                                    [screen_name] => matt_fortini
+                                                    [name] => Matteo Fortini
+                                                    [id] => 15842481
+                                                    [id_str] => 15842481
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 88
+                                                            [1] => 101
+                                                        )
+
+                                                )
+
+                                            [2] => stdClass Object
+                                                (
+                                                    [screen_name] => alberto_cottica
+                                                    [name] => Alberto Cottica
+                                                    [id] => 12551742
+                                                    [id_str] => 12551742
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 102
+                                                            [1] => 118
+                                                        )
+
+                                                )
+
+                                            [3] => stdClass Object
+                                                (
+                                                    [screen_name] => edgeryders
+                                                    [name] => Edgeryders
+                                                    [id] => 389962670
+                                                    [id_str] => 389962670
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 119
+                                                            [1] => 130
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [lang] => en
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => C0DEED
+                    [profile_background_image_url] => http://pbs.twimg.com/profile_background_images/664476740/0956cec164907a05f5890db03bb2afc6.jpeg
+                    [profile_background_image_url_https] => https://pbs.twimg.com/profile_background_images/664476740/0956cec164907a05f5890db03bb2afc6.jpeg
+                    [profile_background_tile] => 1
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/2972288022/df8be0c8362ec2614cd7ec7cb12a6f4a_normal.jpeg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/2972288022/df8be0c8362ec2614cd7ec7cb12a6f4a_normal.jpeg
+                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/565572217/1355435680
+                    [profile_link_color] => B34E00
+                    [profile_sidebar_border_color] => FFFFFF
+                    [profile_sidebar_fill_color] => DDEEF6
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [15] => stdClass Object
+                (
+                    [id] => 3342613449
+                    [id_str] => 3342613449
+                    [name] => MakerInFF
+                    [screen_name] => MakerInFF
+                    [location] => 
+                    [description] => 
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 1
+                    [friends_count] => 75
+                    [listed_count] => 0
+                    [created_at] => Tue Jun 23 13:10:34 +0000 2015
+                    [favourites_count] => 0
+                    [utc_offset] => -25200
+                    [time_zone] => Pacific Time (US & Canada)
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 0
+                    [lang] => it
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => 000000
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://abs.twimg.com/sticky/default_profile_images/default_profile_0_normal.png
+                    [profile_image_url_https] => https://abs.twimg.com/sticky/default_profile_images/default_profile_0_normal.png
+                    [profile_link_color] => DD2E44
+                    [profile_sidebar_border_color] => 000000
+                    [profile_sidebar_fill_color] => 000000
+                    [profile_text_color] => 000000
+                    [profile_use_background_image] => 
+                    [default_profile] => 
+                    [default_profile_image] => 1
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [16] => stdClass Object
+                (
+                    [id] => 622151114
+                    [id_str] => 622151114
+                    [name] => Jesús García Ruiz
+                    [screen_name] => jegarru
+                    [location] => Madrid
+                    [description] => jegarru 2.0
+                    [url] => http://t.co/0PgSALgIxh
+                    [entities] => stdClass Object
+                        (
+                            [url] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/0PgSALgIxh
+                                                    [expanded_url] => http://www.jegarru.es
+                                                    [display_url] => jegarru.es
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 0
+                                                            [1] => 22
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 75
+                    [friends_count] => 113
+                    [listed_count] => 2
+                    [created_at] => Fri Jun 29 19:00:23 +0000 2012
+                    [favourites_count] => 78
+                    [utc_offset] => 10800
+                    [time_zone] => Athens
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 763
+                    [lang] => es
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Fri Jun 12 20:20:27 +0000 2015
+                            [id] => 609455242917322754
+                            [id_str] => 609455242917322754
+                            [text] => Podio de M35 completo de @atletismo_paris y asociado #25vueltas #10000m #CTOveteranos http://t.co/o4CBY6Jiqn
+                            [source] => <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [retweet_count] => 1
+                            [favorite_count] => 1
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [text] => 25vueltas
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 53
+                                                            [1] => 63
+                                                        )
+
+                                                )
+
+                                            [1] => stdClass Object
+                                                (
+                                                    [text] => 10000m
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 64
+                                                            [1] => 71
+                                                        )
+
+                                                )
+
+                                            [2] => stdClass Object
+                                                (
+                                                    [text] => CTOveteranos
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 72
+                                                            [1] => 85
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [screen_name] => atletismo_paris
+                                                    [name] => Club Atletismo Páris
+                                                    [id] => 410110658
+                                                    [id_str] => 410110658
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 25
+                                                            [1] => 41
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                    [media] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [id] => 609455212965797888
+                                                    [id_str] => 609455212965797888
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 86
+                                                            [1] => 108
+                                                        )
+
+                                                    [media_url] => http://pbs.twimg.com/media/CHU4SYNWIAAeE2x.jpg
+                                                    [media_url_https] => https://pbs.twimg.com/media/CHU4SYNWIAAeE2x.jpg
+                                                    [url] => http://t.co/o4CBY6Jiqn
+                                                    [display_url] => pic.twitter.com/o4CBY6Jiqn
+                                                    [expanded_url] => http://twitter.com/jegarru/status/609455242917322754/photo/1
+                                                    [type] => photo
+                                                    [sizes] => stdClass Object
+                                                        (
+                                                            [small] => stdClass Object
+                                                                (
+                                                                    [w] => 340
+                                                                    [h] => 453
+                                                                    [resize] => fit
+                                                                )
+
+                                                            [medium] => stdClass Object
+                                                                (
+                                                                    [w] => 600
+                                                                    [h] => 800
+                                                                    [resize] => fit
+                                                                )
+
+                                                            [thumb] => stdClass Object
+                                                                (
+                                                                    [w] => 150
+                                                                    [h] => 150
+                                                                    [resize] => crop
+                                                                )
+
+                                                            [large] => stdClass Object
+                                                                (
+                                                                    [w] => 768
+                                                                    [h] => 1024
+                                                                    [resize] => fit
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => es
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => C0DEED
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/474325919180816384/1r63G6fL_normal.jpeg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/474325919180816384/1r63G6fL_normal.jpeg
+                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/622151114/1364249407
+                    [profile_link_color] => 0084B4
+                    [profile_sidebar_border_color] => C0DEED
+                    [profile_sidebar_fill_color] => DDEEF6
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 1
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [17] => stdClass Object
+                (
+                    [id] => 3342581565
+                    [id_str] => 3342581565
+                    [name] => Wendy Macleod
+                    [screen_name] => WendyMacLeod3
+                    [location] => 
+                    [description] => CAS Master Teacher
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 2
+                    [friends_count] => 22
+                    [listed_count] => 0
+                    [created_at] => Tue Jun 23 12:33:17 +0000 2015
+                    [favourites_count] => 0
+                    [utc_offset] => 
+                    [time_zone] => 
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 0
+                    [lang] => en
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => C0DEED
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://abs.twimg.com/sticky/default_profile_images/default_profile_1_normal.png
+                    [profile_image_url_https] => https://abs.twimg.com/sticky/default_profile_images/default_profile_1_normal.png
+                    [profile_link_color] => 0084B4
+                    [profile_sidebar_border_color] => C0DEED
+                    [profile_sidebar_fill_color] => DDEEF6
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 1
+                    [default_profile_image] => 1
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [18] => stdClass Object
+                (
+                    [id] => 2987852355
+                    [id_str] => 2987852355
+                    [name] => OhioWebAgency
+                    [screen_name] => OhioWebAgency
+                    [location] => Columbus, Ohio
+                    [description] => Ohio Web Agency is a Columbus Ohio based full service digital marketing agency that specializes in custom WordPress development & strategic SEO.
+                    [url] => http://t.co/JY3KpU232Q
+                    [entities] => stdClass Object
+                        (
+                            [url] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [url] => http://t.co/JY3KpU232Q
+                                                    [expanded_url] => http://ohiowebagency.com/
+                                                    [display_url] => ohiowebagency.com
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 0
+                                                            [1] => 22
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 2725
+                    [friends_count] => 1538
+                    [listed_count] => 80
+                    [created_at] => Tue Jan 20 20:06:27 +0000 2015
+                    [favourites_count] => 1604
+                    [utc_offset] => 
+                    [time_zone] => 
+                    [geo_enabled] => 1
+                    [verified] => 
+                    [statuses_count] => 790
+                    [lang] => en
+                    [status] => stdClass Object
+                        (
+                            [created_at] => Tue Jun 16 17:41:32 +0000 2015
+                            [id] => 610864801825320961
+                            [id_str] => 610864801825320961
+                            [text] => Is your site Mobile Responsive? You may be losing valuable traffic! FREE evaluation! sales@ohiowebagency.com http://t.co/qDOuIdetIR
+                            [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => stdClass Object
+                                (
+                                    [id] => 3df0e3eb1e91170b
+                                    [url] => https://api.twitter.com/1.1/geo/id/3df0e3eb1e91170b.json
+                                    [place_type] => city
+                                    [name] => Columbus
+                                    [full_name] => Columbus, OH
+                                    [country_code] => US
+                                    [country] => United States
+                                    [contained_within] => Array
+                                        (
+                                        )
+
+                                    [bounding_box] => stdClass Object
+                                        (
+                                            [type] => Polygon
+                                            [coordinates] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [0] => -83.200169
+                                                                    [1] => 39.832013
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [0] => -82.7713751
+                                                                    [1] => 39.832013
+                                                                )
+
+                                                            [2] => Array
+                                                                (
+                                                                    [0] => -82.7713751
+                                                                    [1] => 40.157354
+                                                                )
+
+                                                            [3] => Array
+                                                                (
+                                                                    [0] => -83.200169
+                                                                    [1] => 40.157354
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [attributes] => stdClass Object
+                                        (
+                                        )
+
+                                )
+
+                            [contributors] => 
+                            [retweet_count] => 3
+                            [favorite_count] => 2
+                            [entities] => stdClass Object
+                                (
+                                    [hashtags] => Array
+                                        (
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                    [media] => Array
+                                        (
+                                            [0] => stdClass Object
+                                                (
+                                                    [id] => 610864800982302720
+                                                    [id_str] => 610864800982302720
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 109
+                                                            [1] => 131
+                                                        )
+
+                                                    [media_url] => http://pbs.twimg.com/media/CHo6TMxXAAAmGsw.png
+                                                    [media_url_https] => https://pbs.twimg.com/media/CHo6TMxXAAAmGsw.png
+                                                    [url] => http://t.co/qDOuIdetIR
+                                                    [display_url] => pic.twitter.com/qDOuIdetIR
+                                                    [expanded_url] => http://twitter.com/OhioWebAgency/status/610864801825320961/photo/1
+                                                    [type] => photo
+                                                    [sizes] => stdClass Object
+                                                        (
+                                                            [medium] => stdClass Object
+                                                                (
+                                                                    [w] => 555
+                                                                    [h] => 273
+                                                                    [resize] => fit
+                                                                )
+
+                                                            [thumb] => stdClass Object
+                                                                (
+                                                                    [w] => 150
+                                                                    [h] => 150
+                                                                    [resize] => crop
+                                                                )
+
+                                                            [large] => stdClass Object
+                                                                (
+                                                                    [w] => 555
+                                                                    [h] => 273
+                                                                    [resize] => fit
+                                                                )
+
+                                                            [small] => stdClass Object
+                                                                (
+                                                                    [w] => 340
+                                                                    [h] => 167
+                                                                    [resize] => fit
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => 141414
+                    [profile_background_image_url] => http://pbs.twimg.com/profile_background_images/560508539253174272/1f6yGztk.png
+                    [profile_background_image_url_https] => https://pbs.twimg.com/profile_background_images/560508539253174272/1f6yGztk.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://pbs.twimg.com/profile_images/563279659702292481/LhZuwCs-_normal.jpeg
+                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/563279659702292481/LhZuwCs-_normal.jpeg
+                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/2987852355/1423131344
+                    [profile_link_color] => ABB8C2
+                    [profile_sidebar_border_color] => C0DEED
+                    [profile_sidebar_fill_color] => DDEEF6
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 
+                    [default_profile] => 
+                    [default_profile_image] => 
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+            [19] => stdClass Object
+                (
+                    [id] => 3253685365
+                    [id_str] => 3253685365
+                    [name] => Dheeraj Chauhan
+                    [screen_name] => ProEmbedded
+                    [location] => 
+                    [description] => 
+                    [url] => 
+                    [entities] => stdClass Object
+                        (
+                            [description] => stdClass Object
+                                (
+                                    [urls] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [protected] => 
+                    [followers_count] => 0
+                    [friends_count] => 8
+                    [listed_count] => 0
+                    [created_at] => Tue Jun 23 13:13:28 +0000 2015
+                    [favourites_count] => 0
+                    [utc_offset] => 
+                    [time_zone] => 
+                    [geo_enabled] => 
+                    [verified] => 
+                    [statuses_count] => 0
+                    [lang] => en
+                    [contributors_enabled] => 
+                    [is_translator] => 
+                    [is_translation_enabled] => 
+                    [profile_background_color] => C0DEED
+                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                    [profile_background_tile] => 
+                    [profile_image_url] => http://abs.twimg.com/sticky/default_profile_images/default_profile_0_normal.png
+                    [profile_image_url_https] => https://abs.twimg.com/sticky/default_profile_images/default_profile_0_normal.png
+                    [profile_link_color] => 0084B4
+                    [profile_sidebar_border_color] => C0DEED
+                    [profile_sidebar_fill_color] => DDEEF6
+                    [profile_text_color] => 333333
+                    [profile_use_background_image] => 1
+                    [default_profile] => 1
+                    [default_profile_image] => 1
+                    [following] => 
+                    [follow_request_sent] => 
+                    [notifications] => 
+                    [muting] => 
+                    [blocking] => 
+                    [blocked_by] => 
+                )
+
+        )
+
+    [next_cursor] => 1504775215171680138
+    [next_cursor_str] => 1504775215171680138
+    [previous_cursor] => 0
+    [previous_cursor_str] => 0
+)

@@ -154,10 +154,12 @@ if (mainFuncs::is_logged_in() != true) {
        $content = $connection->get('search/tweets',array('q' => $_REQUEST['search_term'],'lang' => ($_REQUEST['search_lang']),'count' => TWITTER_TWEET_SEARCH_PP));
        if ($content->statuses) {
         foreach ($content->statuses as $user_row) {
+			if (empty($user_row->status->text)) { $tweet_status = "Default Tweet"; } else { $tweet_status = $user_row->status->text;}
+
          if (!$db->is_on_fr_list($_REQUEST['twitter_id'],$user_row->user->id_str)) {
           $returned_users[$user_row->user->id_str] = array("screen_name" => $user_row->user->screen_name,
-       						               "profile_image_url" => $user_row->user->profile_image_url,
-                                                               "tweet" => $user_row->text,
+															"profile_image_url" => $user_row->user->profile_image_url,
+                                                               "tweet" => $tweet_status,
                                                                "full_name" => $user_row->user->name
                                                                );
          }
@@ -170,12 +172,15 @@ if (mainFuncs::is_logged_in() != true) {
        if ($content) {
         foreach ($content as $user_row) {
 			if (empty($user_row->status->text)) { $tweet_status = "Default Tweet"; } else { $tweet_status = $user_row->status->text;}
+			if (empty($user_row->followers_count)) { $followers_count = "N/A"; } else { $followers_count = $user_row->followers_count;}
+			if (empty($user_row->friends_count)) { $friends_count = "N/A"; } else { $friends_count = $user_row->friends_count;}
+			
          if (!$db->is_on_fr_list($_REQUEST['twitter_id'],$user_row->id_str)) {
           $returned_users[$user_row->id_str] = array("screen_name" => $user_row->screen_name,
 													 "profile_image_url" => $user_row->profile_image_url,
                                                      "full_name" => $user_row->name,
-                                                     "followers_count" => $user_row->followers_count,
-                                                     "friends_count" => $user_row->friends_count,
+                                                     "followers_count" => $followers_count,
+                                                     "friends_count" => $friends_count,
                                                      "tweet" => $tweet_status
                                                      );
          }
