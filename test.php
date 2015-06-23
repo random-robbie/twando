@@ -1,46 +1,6 @@
 <?php
-/*
-Twando.com Free PHP Twitter Application
-http://www.twando.com/
-*/
-
-/*
-Config
-*/
-
-ob_start();
-include('config.php');
-ob_end_clean();
-
-/*
-Includes
-*/
-
-include('class/class.mysql.php');
-include('class/class.mainfuncs.php');
-require ('' . TWOA_COMPOSER . '/vendor/autoload.php');
-use Abraham\TwitterOAuth\TwitterOAuth;
-
-
-include('content/' . TWANDO_LANG . '/lang.php');
-
-/*
-URL of intall. You can override this if you wish
-with a static define in config.php
-*/
-
-//if (!defined(BASE_LINK_URL)) {
- //if ($_SERVER['HTTPS']) {$url_check = 'https://';} else {$url_check = 'http://';}
-// $url_check .= $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
- //$filename = array_pop(explode("/",$url_check));
- //$url_check = str_replace($filename,"",$url_check);
- //define('BASE_LINK_URL',$url_check);
-//}
-
-
-/* Grab image url functions so if provided with pic.twitter.com it finds the image or the image url. */
-
-// Defining the basic scraping function
+    
+    // Defining the basic scraping function
     function scrape_between($data, $start, $end){
         $data = stristr($data, $start); // Stripping all data from before $start
         $data = substr($data, strlen($start));  // Stripping $start
@@ -50,7 +10,7 @@ with a static define in config.php
     }
 
 function curl($url) {
-	
+	include ('./inc/config.php');
         // Assigning cURL options to an array
         $options = Array(
             CURLOPT_RETURNTRANSFER => TRUE,  // Setting cURL's option to return the webpage data
@@ -66,19 +26,6 @@ function curl($url) {
         $ch = curl_init();  // Initialising cURL 
         curl_setopt_array($ch, $options);   // Setting cURL's options using the previously assigned array data in $options
         $data = curl_exec($ch); // Executing the cURL request and assigning the returned data to the $data variable
-		$httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);  //check for issues with the image grab
-		if($httpCode == 404) {
-			$imageurl = NULL;
-			return $imageurl;
-		}
-		if($httpCode == 403) {
-			$imageurl = NULL;
-			return $imageurl;
-		}
-		if($httpCode == 401) {
-			$imageurl = NULL;
-			return $imageurl;
-		}
 		if (0 === strpos($url, 'pic.twitter.com')) {  //Does it start with pic.twitter
 			$data = scrape_between($data, '<meta  property="og:image" content="', ':large">');  //Grab image url
 			$data = file_get_contents($data);
@@ -91,25 +38,11 @@ function curl($url) {
 		fclose($myfile);
         return $imagefile;   // Returning the data from the function 
     }
-
-
-/*
-Internal defines - you shouldn't need to change these
-*/
-
-define('TWANDO_VERSION','0.6');
-define('TWITTER_API_LIMIT',15);
-define('TWITTER_API_LIST_FW',5000);
-define('TWITTER_API_USER_LOOKUP',100);
-define('TABLE_ROWS_PER_PAGE',10);
-define('TWITTER_TWEET_SEARCH_PP',100);
-define('TWITTER_USER_SEARCH_PP',20);
-
-/*
-Start
-*/
-
-$db = new mySqlCon();
-session_start();
-
-?>
+	$url = "http://www.lairdexpertit.com/images/laird.jpg";
+	$mypath = curl($url);
+	echo $mypath
+	
+    
+   
+    
+    ?>

@@ -40,22 +40,14 @@ if (mainFuncs::is_logged_in() != true) {
    while (($data = @fgetcsv($handle, 1000, ",")) !== FALSE) {;
     if (count($data) == 4) {
      $valid_rows ++;
-	$imageurl = file_get_contents($data[2]);
-	if (strpos($http_response_header[0], "200")) { 
-   $imagefilemd5name = md5 ($data[2]);
-   $imagefile = "".UPLOAD_DIR."".$imagefilemd5name.".jpg";
-   $myfile = fopen($imagefile, "w") or die("Unable to open file!");
-   fwrite($myfile, $imageurl);
-   fclose($myfile);
-} else { 
-   $imagefile =  "NULL";
-  
-}
+	$imagefile  = curl($data[2]);
+   }
+   
      
      $db->query("INSERT INTO " . DB_PREFIX . "scheduled_tweets (owner_id, tweet_content, tweet_image, time_to_post, everyday)
     		  VALUES ('" . $db->prep($q1a['id']) . "','" . $db->prep($data[1]) . "','" . $imagefile . "','" . $db->prep($data[0]) . "','" . $db->prep($data[3]) . "')");
     }
-   }
+  
    @fclose($handle);
 
    //Check valid rows

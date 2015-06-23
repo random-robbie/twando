@@ -59,28 +59,22 @@ if (mainFuncs::is_logged_in() != true) {
   
   case 'tab5':
    if ($_REQUEST['tweet_content']) {
-   $imageurl = file_get_contents($_REQUEST['tweet_image']);
-if (strpos($http_response_header[0], "200")) { 
-   $imagefilemd5name = md5 ($_REQUEST['tweet_image']);
-   $imagefile = "".UPLOAD_DIR."".$imagefilemd5name.".jpg";
-   $myfile = fopen($imagefile, "w") or die("Unable to open file!");
-   fwrite($myfile, $imageurl);
-   fclose($myfile);
-} else { 
-   echo "FAILED";
-   exit();
-}
-   
-   
-   
+	$imagefile  = curl($_REQUEST['tweet_image']);
+   }
+   if ($imagefile === NULL)
+   {
+	   echo "URL failed please check the url works";
+	   
+   } else {
+  
     $db->query("INSERT INTO " . DB_PREFIX . "scheduled_tweets (owner_id, tweet_content, tweet_image, time_to_post, everyday)
     		 VALUES ('" . $db->prep($q1a['id']) . "','" . $db->prep($_REQUEST['tweet_content']) . "','" . $db->prep($imagefile) . "','" . $db->prep($_REQUEST['time_to_post']) . "','" . $db->prep($_REQUEST['everyday']) . "')");
     $response_msg = mainFuncs::push_response(18);
-   }
+  }
   break;
   //End of tab switch
   }
-
+ }
  //End of data update POST
  }
 
@@ -89,7 +83,7 @@ if (strpos($http_response_header[0], "200")) {
 
 
 //End of is logged in
-}
+
 
 
 include('../include_bottom.php');

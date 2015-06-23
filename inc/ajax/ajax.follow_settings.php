@@ -198,9 +198,40 @@ if (mainFuncs::is_logged_in() != true) {
 
 
      }
+     
+     } if ($_REQUEST['search_type'] == "3") {
+     
+     
+       
+       //Loop through results
+      for ($i = 1; $i<=5; $i++) {
+       $content = $connection->get('followers/list',array('screen_name' => $_REQUEST['search_term'],'count' => '200'));
+       if ($content) {
+        foreach ($content as $user_row) {
+        
+        
+         if (!$db->is_on_fr_list($_REQUEST['twitter_id'],$user_row->id_str)) {
+          $returned_users[$user_row->id_str] = array("screen_name" => $user_row->screen_name,
+       					             				 "profile_image_url" => $user_row->profile_image_url,
+                                                     "full_name" => $user_row->name,
+                                                     "followers_count" => $user_row->followers_count,
+                                                     "friends_count" => $user_row->friends_count,
+                                                     "tweet" => $user_row->status->text
+                                                     );
+                                                     
+         }
+        }
+       }
+      }
+
+
+     }
+     
+       
+        
 
      //Next post check
-    } elseif ( ($_REQUEST['a'] == 'stf2update') and ($_REQUEST['follow_ids']) ) {
+    if ( ($_REQUEST['a'] == 'stf2update') and ($_REQUEST['follow_ids']) ) {
 
       //Loop through ids
       $ap_creds = $db->get_ap_creds();
