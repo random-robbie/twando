@@ -184,20 +184,26 @@ if (mainFuncs::is_logged_in() != true) {
       }
      }
 	 if ($_REQUEST['search_type'] == 3) {
+		 //Grab Friends of user
       //Loop through results
       for ($i = 1; $i<=5; $i++) {
-       $content = $connection->get('followers/list',array('screen_name' => $_REQUEST['search_term'],'count' => '1000'));
+       $content = $connection->get('followers/list',array('screen_name' => $_REQUEST['search_term'],'count' => '500'));
+	   if (isset($content->errors)) { $response_msg = mainFuncs::push_response(88);}
+	   $content2 = print_r($content, true);
+		file_put_contents('/var/www/twitter/file.log', $content2);
        if ($content) {
         foreach ($content->users as $user_row)
 		{
 			
 			if (empty($user_row->status->text)) { $tweet_status = "Default Tweet"; } else { $tweet_status = $user_row->status->text;}
+			if (empty($user_row->followers_count)) { $followers_count = "N/A"; } else { $followers_count = $user_row->followers_count;}
+			if (empty($user_row->friends_count)) { $friends_count = "N/A"; } else { $friends_count = $user_row->friends_count;}
          if (!$db->is_on_fr_list($_REQUEST['twitter_id'],$user_row->id_str)) {
           $returned_users[$user_row->id_str] = array("screen_name" => $user_row->screen_name,
 													 "profile_image_url" => $user_row->profile_image_url,
                                                      "full_name" => $user_row->name,
-                                                     "followers_count" => $user_row->followers_count,
-                                                     "friends_count" => $user_row->friends_count,
+                                                     "followers_count" => $followers_count,
+                                                     "friends_count" => $friends_count,
                                                      "tweet" => $tweet_status
                                                      );
          }
