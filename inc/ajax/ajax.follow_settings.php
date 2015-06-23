@@ -186,9 +186,11 @@ if (mainFuncs::is_logged_in() != true) {
 	 if ($_REQUEST['search_type'] == 3) {
       //Loop through results
       for ($i = 1; $i<=5; $i++) {
-       $content = $connection->get('users/search',array('q' => $_REQUEST['search_term'],'count' => TWITTER_USER_SEARCH_PP,'page'=>$i));
+       $content = $connection->get('followers/list',array('screen_name' => $_REQUEST['search_term'],'count' => '1000'));
        if ($content) {
-        foreach ($content as $user_row) {
+        foreach ($content->users as $user_row)
+		{
+			
 			if (empty($user_row->status->text)) { $tweet_status = "Default Tweet"; } else { $tweet_status = $user_row->status->text;}
          if (!$db->is_on_fr_list($_REQUEST['twitter_id'],$user_row->id_str)) {
           $returned_users[$user_row->id_str] = array("screen_name" => $user_row->screen_name,

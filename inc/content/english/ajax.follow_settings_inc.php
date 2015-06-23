@@ -172,7 +172,7 @@ Characters: <input type="text" name="count_box" id="count_box" size="3" value="<
  <div class="cron_right"><select name="search_type" id="search_type" class="input_box_style" style="width: 120px;">
  <option value="1" <?php if ((int)$_REQUEST['search_type'] <= 1) { echo 'selected="selected"'; } ?>>Tweet based</option>
  <option value="2" <?php if ((int)$_REQUEST['search_type'] == 2) { echo 'selected="selected"'; } ?>>User based</option>
- <option value="3">Users Follows</option>
+ <option value="3" <?php if ((int)$_REQUEST['search_type'] == 3) { echo 'selected="selected"'; } ?>>Users Follows</option>
 </select></div>
 </div>
 <div class="cron_row">
