@@ -2,6 +2,16 @@
 /*
 Twando.com Free PHP Twitter Application
 http://www.twando.com/
+
+Updates for 
+users/lookup
+Requests / 15-min window (user auth)
+180
+Requests / 15-min window (app auth)
+60
+
+should prevent any errors when trying to follow new users.
+
 */
 require "vendor/autoload.php";
 
@@ -192,7 +202,7 @@ if ($run_cron == true) {
 
     //Loop through IDs we're following, but that aren't in followers table
     $unfollow_now = array();
-    $qheck = $db->query("SELECT twitter_id FROM " . DB_PREFIX . "fr_" . $q1a['id'] . " WHERE otp = 0 AND stp = 1");
+    $qheck = $db->query("SELECT twitter_id FROM " . DB_PREFIX . "fr_" . $q1a['id'] . " WHERE otp = 0 AND stp = 1 LIMIT 0 , 60");
     while ($qchecka = $db->fetch_array($qheck)) {
      if (!in_array($qchecka['twitter_id'],$never_unfollow)) {
       $unfollow_now[] = (string)$qchecka['twitter_id'];
@@ -258,10 +268,10 @@ if ($run_cron == true) {
     $follow_now = array();
     if ((int)$q1a['auto_follow'] == 1 ){
      //Any followers we're not following yet
-     $qheck = $db->query("SELECT twitter_id FROM " . DB_PREFIX . "fw_" . $q1a['id'] . " WHERE otp = 0 AND stp = 1");
+     $qheck = $db->query("SELECT twitter_id FROM " . DB_PREFIX . "fw_" . $q1a['id'] . " WHERE otp = 0 AND stp = 1 LIMIT 0 , 60");
     } elseif ((int)$q1a['auto_follow'] == 2) {
      //Just new followers
-     $qheck = $db->query("SELECT twitter_id FROM " . DB_PREFIX . "fw_" . $q1a['id'] . " WHERE otp = 0 AND stp = 1 AND ntp = 1");
+     $qheck = $db->query("SELECT twitter_id FROM " . DB_PREFIX . "fw_" . $q1a['id'] . " WHERE otp = 0 AND stp = 1 AND ntp = 1 LIMIT 0 , 60");
     }
 
     while ($qchecka = $db->fetch_array($qheck)) {
@@ -373,9 +383,11 @@ if ($run_cron == true) {
        //Run lookup now
        $content = "";
        $content = $connection->post('users/lookup', array('user_id' => $pass_ids));
+	   //$content2 = print_r($content, true);
+		//file_put_contents('file.log', $content2);
        if ($content) {
         foreach ($content as $user_row) {
-
+		
          //Cache user
          $tw_user_cache = array(
                   'twitter_id' => $user_row->id,
