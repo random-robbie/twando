@@ -41,11 +41,12 @@ if (mainFuncs::is_logged_in() != true) {
 
      $db->query($base_query);
      $db->query("OPTIMIZE TABLE " . DB_PREFIX . "cron_logs");
-
+	 if (!empty($_REQUEST['empty_cache'])){
      if ((int)$_REQUEST['empty_cache'] == 1) {
       $db->query("TRUNCATE TABLE " . DB_PREFIX . "user_cache");
       $db->query("OPTIMIZE TABLE " . DB_PREFIX . "user_cache");
      }
+	 }
      $response_msg = mainFuncs::push_response(22);
     }
 

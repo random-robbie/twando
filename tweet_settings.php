@@ -27,7 +27,7 @@ if (mainFuncs::is_logged_in() != true) {
 
 
 
-
+if (isset($_POST['a'])){
  if ($_POST['a'] == 'csv_upload') {
   //Bulk CSV upload
   $header_info['on_load'] = "ajax_tweet_settings_tab('tab4');";
@@ -66,7 +66,7 @@ if (mainFuncs::is_logged_in() != true) {
 
 
 }
-
+}
 mainFuncs::print_html($page_select);
 
 include('inc/include_bottom.php');
