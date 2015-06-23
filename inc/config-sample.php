@@ -51,14 +51,14 @@ define('BASE_LINK_URL','http://www.yoursite.com/twando');
 Define full path for file uploads
 */
 
-define ('UPLOAD_DIR',''.$_SERVER["DOCUMENT_ROOT"].'/twitter/uploads/');
+define ('UPLOAD_DIR','/var/www/uploads/');
 
 
 /*
 Define Twitter OAuth Composer Package Link
 */
 
-define ('TWOA_COMPOSER',''.$_SERVER["DOCUMENT_ROOT"].'/twitter/');
+define ('TWOA_COMPOSER','/var/www/');
 
 
 ?>
