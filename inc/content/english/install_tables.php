@@ -47,6 +47,19 @@ if (strlen(DB_PREFIX) > 10) {
 if ($config_error == false) {
  echo '<span class="success">No basic issues found in your config.php file.</span><br />' . "\n";
 }
+
+if (is_writable(UPLOAD_DIR)) {
+    echo '<span class="success">Uploads folder is writeable</span><br />' . "\n";
+} else {
+    echo '<span class="error">Warning: Please check file permissions and chmod 755 your upload directory</span><br />' . "\n";
+}
+
+if (file_exists(''.TWOA_COMPOSER.'/vendor/autoload.php')) {
+    echo '<span class="success">Uploads folder is writeable</span><br />' . "\n";
+} else {
+    echo '<span class="error">Warning: Please check file permissions and chmod 755 your upload directory</span><br />' . "\n";
+}
+
 ?>
 <br style="clear: both;" />
 <a href="<?=BASE_LINK_URL?>">Return to main admin screen</a>

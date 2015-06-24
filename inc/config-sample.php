@@ -51,7 +51,7 @@ define('BASE_LINK_URL','http://www.yoursite.com/twando');
 Define full path for file uploads
 */
 
-define ('UPLOAD_DIR','/var/www/uploads/');
+define ('UPLOAD_DIR','/var/www/inc/uploads/');
 
 
 /*
