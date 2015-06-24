@@ -27,6 +27,8 @@ To send a quick tweet from this account, use the box below:
 <textarea name="tweet_content" id="tweet_content" class="input_box_style" style="height: 70px; width: 400px;" onkeyup="$('#count_box').val($('#tweet_content').val().length);"></textarea><br />
 Characters: <input type="text" name="count_box" id="count_box" size="3" value="0" class="input_box_style" style="width: 30px;"  />
 </div>
+<br />Image Url
+<input type="text" name="tweet_image" id="tweet_image" value="http://">   Leave it with http:// to ignore image url<br />
 <br style="clear: both;" />
 <input type="hidden" name="a" value="quicktweet" />
 </form>

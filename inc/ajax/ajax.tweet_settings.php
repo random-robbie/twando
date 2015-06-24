@@ -20,8 +20,33 @@ if (mainFuncs::is_logged_in() != true) {
   //Updates to be done here
   switch ($_REQUEST['tab_id']) {
    case 'tab1':
-
-   if ($_REQUEST['tweet_content']) {
+   
+   if ($_REQUEST['tweet_image'] != "http://")
+	{
+	$imagefile  = curl($_REQUEST['tweet_image']);
+   $connection = new TwitterOAuth($ap_creds['consumer_key'], $ap_creds['consumer_secret'], $q1a['oauth_token'], $q1a['oauth_token_secret']);
+   
+   $media1 = $connection->upload('media/upload', array('media' => $imagefile ,));
+	$parameters = array(
+    'status' => $_REQUEST['tweet_content'],
+    'media_ids' => implode(',', array($media1->media_id_string)),
+);
+	$connection->post('statuses/update', $parameters);
+   if ($connection->getLastHttpCode() == 200) {
+     $response_msg = mainFuncs::push_response(13);
+	 exit();
+    } else {
+     $response_msg = mainFuncs::push_response(14);
+	 exit();
+    }
+   }
+   
+   
+   
+   
+ 
+   
+   if ($_REQUEST['tweet_content'] || $_REQUEST['tweet_image'] == "http://") {
     $connection = new TwitterOAuth($ap_creds['consumer_key'], $ap_creds['consumer_secret'], $q1a['oauth_token'], $q1a['oauth_token_secret']);
     $connection->post('statuses/update', array('status' => $_REQUEST['tweet_content']));
 
@@ -32,6 +57,8 @@ if (mainFuncs::is_logged_in() != true) {
     }
    }
 
+
+   
   break;
 
   case 'tab2':

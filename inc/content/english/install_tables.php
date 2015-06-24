@@ -55,7 +55,7 @@ if (is_writable(UPLOAD_DIR)) {
 }
 
 if (file_exists(''.TWOA_COMPOSER.'/vendor/autoload.php')) {
-    echo '<span class="success">Uploads folder is writeable</span><br />' . "\n";
+    echo '<span class="success">Found Twitter Oauth Loader</span><br />' . "\n";
 } else {
     echo '<span class="error">Warning: Please check file permissions and chmod 755 your upload directory</span><br />' . "\n";
 }
