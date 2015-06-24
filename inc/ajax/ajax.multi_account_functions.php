@@ -135,12 +135,12 @@ if (mainFuncs::is_logged_in() != true) {
 
  //End of data update POST
  }
+//End of is logged in
 
  include('../content/' . TWANDO_LANG . '/ajax.multi_account_functions_inc.php');
 
 
-//End of is logged in
-}
+
 
 
 include('../include_bottom.php');
