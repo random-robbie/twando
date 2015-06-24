@@ -19,7 +19,7 @@ frequently if you wish. Even if you don't have auto follow or unfollow enabled, 
 <br /><br />
 <div class="cron_row">
  <div class="cron_left">Local Command:</div>
- <div class="cron_right"><input type="text" name="code1" id="code1" class="input_box_style" style="width: 800px;" value="php <?=getcwd()?>/cron_follow.php <?=CRON_KEY?>" /></div>
+ <div class="cron_right"><input type="text" name="code1" id="code1" class="input_box_style" style="width: 800px;" value="0/30 * * * * /usr/bin/php <?=getcwd()?>/cron_follow.php <?=CRON_KEY?> > /dev/null 2>&1 " /></div>
 </div>
 <div class="cron_row">
  <div class="cron_left">Remote URL:</div>
@@ -32,11 +32,11 @@ every five minutes is probably reasonable. If you never schedule any tweets you 
 <br /><br />
 <div class="cron_row">
  <div class="cron_left">Local Command:</div>
- <div class="cron_right"><input type="text" name="code3" id="code3" class="input_box_style" style="width: 800px;" value="php <?=getcwd()?>/cron_tweet.php <?=CRON_KEY?>" /></div>
+ <div class="cron_right"><input type="text" name="code3" id="code3" class="input_box_style" style="width: 800px;" value="0/5 * * * * /usr/bin/php <?=getcwd()?>/cron_tweet.php <?=CRON_KEY?> > /dev/null 2>&1" /></div>
 </div>
 <div class="cron_row">
  <div class="cron_left">Remote URL:</div>
- <div class="cron_right"><input type="text" name="code4" id="code4" class="input_box_style" style="width: 800px;" value="<?=BASE_LINK_URL?>cron_tweet.php?cron_key=<?=CRON_KEY?>" /></div>
+ <div class="cron_right"><input type="text" name="code4" id="code4" class="input_box_style" style="width: 800px;" value="<?=BASE_LINK_URL?>cron_tweet.php?cron_key=<?=CRON_KEY?>  " /></div>
 </div>
 <br style="clear: both;" />
 <h2>Cron Status</h2>
