@@ -35,11 +35,12 @@ if (mainFuncs::is_logged_in() != true) {
   break;
 
   case 'tab2':
-
+	if (empty($_REQUEST['a'])) { $_REQUEST['a'] = NULL;}
    if ( ($_REQUEST['a'] == 'deletetweet') and ($_REQUEST['deltweet_id']) ) {
     $db->query("DELETE FROM " . DB_PREFIX . "scheduled_tweets WHERE owner_id='" . $db->prep($q1a['id']) . "' AND id='" .  $db->prep($_REQUEST['deltweet_id']) . "'");
     $response_msg = mainFuncs::push_response(16);
    }
+   if (empty($_REQUEST['a'])) { $_REQUEST['a'] = NULL;}
    if ( ($_REQUEST['a'] == 'edittweetsave') and ($_REQUEST['edittweetsave_id']) ) {
     $db->query("UPDATE " . DB_PREFIX . "scheduled_tweets SET tweet_content='" .  $db->prep($_REQUEST['tweet_content'])  . "', time_to_post='" .  $db->prep($_REQUEST['time_to_post']) . "' WHERE owner_id='" . $db->prep($q1a['id']) . "' AND id='" .  $db->prep($_REQUEST['edittweetsave_id']) . "'");
     $response_msg = mainFuncs::push_response(17);
