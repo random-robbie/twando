@@ -61,12 +61,13 @@ if ($run_cron == true) {
 	if ($q2a['tweet_image'] == NULL)
 	{
    //Post the tweet
-   $connection->post('statuses/update', array('status' => $q2a['tweet_content']));
+   $mes = utf8_encode($q2a['tweet_content']);
+   $connection->post('statuses/update', array('status' => $mes ));
    } else  {
    //Post the Tweet with image
    $media1 = $connection->upload('media/upload', array('media' => $q2a['tweet_image'],));
 	$parameters = array(
-    'status' => $q2a['tweet_content'],
+    'status' => $mes,
     'media_ids' => implode(',', array($media1->media_id_string)),
 );
 	$connection->post('statuses/update', $parameters);
