@@ -86,7 +86,47 @@ if ($run_cron == true) {
 	{
 		//Add 24 hours on to time when it should tweet
 		$db->query("UPDATE " . DB_PREFIX . "scheduled_tweets SET time_to_post = (time_to_post + INTERVAL 24 HOUR) WHERE owner_id = '" . $db->prep($q1a['id']) . "' AND id = '" . $q2a['id'] . "'");
-	} else {
+	} 
+	if ($q2a['everyday'] == "2")
+	{
+		//Add 48 hours on to time when it should tweet
+		$db->query("UPDATE " . DB_PREFIX . "scheduled_tweets SET time_to_post = (time_to_post + INTERVAL 48 HOUR) WHERE owner_id = '" . $db->prep($q1a['id']) . "' AND id = '" . $q2a['id'] . "'");
+	} 
+	if ($q2a['everyday'] == "3")
+	{
+		//Add 72 hours on to time when it should tweet
+		$db->query("UPDATE " . DB_PREFIX . "scheduled_tweets SET time_to_post = (time_to_post + INTERVAL 72 HOUR) WHERE owner_id = '" . $db->prep($q1a['id']) . "' AND id = '" . $q2a['id'] . "'");
+	} 
+	if ($q2a['everyday'] == "4")
+	{
+		//Add 1 Week on to time when it should tweet
+		$db->query("UPDATE " . DB_PREFIX . "scheduled_tweets SET time_to_post = (time_to_post + INTERVAL 1 WEEK) WHERE owner_id = '" . $db->prep($q1a['id']) . "' AND id = '" . $q2a['id'] . "'");
+	} 
+	if ($q2a['everyday'] == "5")
+	{
+		//Add 2 Weeks on to time when it should tweet
+		$db->query("UPDATE " . DB_PREFIX . "scheduled_tweets SET time_to_post = (time_to_post + INTERVAL 2 WEEK) WHERE owner_id = '" . $db->prep($q1a['id']) . "' AND id = '" . $q2a['id'] . "'");
+	} 
+	if ($q2a['everyday'] == "6")
+	{
+		//Add 3 Weeks on to time when it should tweet
+		$db->query("UPDATE " . DB_PREFIX . "scheduled_tweets SET time_to_post = (time_to_post + INTERVAL 3 WEEK) WHERE owner_id = '" . $db->prep($q1a['id']) . "' AND id = '" . $q2a['id'] . "'");
+	}
+	if ($q2a['everyday'] == "7")
+	{
+		//Add 1 Month on to time when it should tweet
+		$db->query("UPDATE " . DB_PREFIX . "scheduled_tweets SET time_to_post = (time_to_post + INTERVAL 1 MONTH) WHERE owner_id = '" . $db->prep($q1a['id']) . "' AND id = '" . $q2a['id'] . "'");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	else {
    //Delete the tweet
    $db->query("DELETE FROM " . DB_PREFIX . "scheduled_tweets WHERE owner_id = '" . $db->prep($q1a['id']) . "' AND id = '" . $q2a['id'] . "'");
 	}
