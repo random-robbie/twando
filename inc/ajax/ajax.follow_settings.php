@@ -24,17 +24,17 @@ if (mainFuncs::is_logged_in() != true) {
   //Updates to be done here
   switch ($_REQUEST['tab_id']) {
     case 'tab1':
-	if (!isset($_REQUEST['auto_follow'])) { $_REQUEST['auto_follow'] == "";}
-    $auto_follow = 0;
-    if ((int)$_REQUEST['auto_follow'] == 1) {
+    if (!isset($_REQUEST['auto_follow'])) { $auto_follow = "0";} else { $auto_follow = $_REQUEST['auto_follow']; }
+    if (!isset($_REQUEST['auto_unfollow'])) { $auto_unfollow = "0";} else { $auto_unfollow = $_REQUEST['auto_unfollow']; }
+   if (!isset($_REQUEST['auto_dm'])) { $auto_dm = "0";} else { $auto_dm = $_REQUEST['auto_dm']; }
+    if ((int)$auto_follow == 1) {
      $auto_follow = (int)$_REQUEST['auto_follow_type'];
     }
-	if (empty($_REQUEST['auto_unfollow'])) { $_REQUEST['auto_unfollow'] = '0';}
-	if (empty($_REQUEST['auto_dm'])) { $_REQUEST['auto_dm'] = '0';}
+	
     $tw_user = array('id' => $_REQUEST['twitter_id'],
                   'auto_follow' => $auto_follow,
-                  'auto_unfollow' => (int)$_REQUEST['auto_unfollow'],
-                  'auto_dm' => (int)$_REQUEST['auto_dm'],
+                  'auto_unfollow' => (int)$auto_unfollow,
+                  'auto_dm' => (int)$auto_dm,
                   'last_updated' => date("Y-m-d H:i:s")
  		 );
 
