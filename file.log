@@ -1,5 +1,1 @@
-stdClass Object
-(
-    [request] => /1.1/followers/list.json
-    [error] => Not authorized.
-)
+
