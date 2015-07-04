@@ -24,7 +24,7 @@ if (mainFuncs::is_logged_in() != true) {
   //Updates to be done here
   switch ($_REQUEST['tab_id']) {
     case 'tab1':
-	if (empty($_REQUEST['auto_follow'])) { $_REQUEST['auto_follow'] == NULL;}
+	if (!isset($_REQUEST['auto_follow'])) { $_REQUEST['auto_follow'] == "";}
     $auto_follow = 0;
     if ((int)$_REQUEST['auto_follow'] == 1) {
      $auto_follow = (int)$_REQUEST['auto_follow_type'];
