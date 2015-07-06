@@ -126,7 +126,7 @@ if ($run_cron == true) {
 	
 	
 	
-	else {
+	if ($q2a['everyday'] == "0")
    //Delete the tweet
    $db->query("DELETE FROM " . DB_PREFIX . "scheduled_tweets WHERE owner_id = '" . $db->prep($q1a['id']) . "' AND id = '" . $q2a['id'] . "'");
 	}
