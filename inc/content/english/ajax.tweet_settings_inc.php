@@ -4,7 +4,41 @@ Twando.com Free PHP Twitter Application
 http://www.twando.com/
 */
 
+function sched ($value){
+if ($value == 0)
+{
+	return "Once";
+} elseif ($value == 1){
+	  return "24 Hours";
+}elseif ($value == 2)
+{
+	return "48 Hours";
+}elseif ($value == 3)
+{
+	return "72 Hours";
+}elseif ($value == 4)
+{
+	return "1 Week";
+}elseif ($value == 5)
+{
+	return "2 Week";
+} elseif ($value == 6)
+{
+	return "3 Week";
+} if ($value == 6)
+{
+	return "1 Month";
+}
+	
+	
 
+   
+   
+   
+   
+   
+   
+}
 
  //Show content here
  if ($_REQUEST['tab_id']) {
@@ -44,11 +78,12 @@ Your currently scheduled tweets are shown below:
  <tr>
   <td class="heading" width="190">Time to Post</td>
   <td class="heading">Tweet Content</td>
+  <td class="heading" width="50">Schedule</td>
   <td class="heading" width="50">Edit</td>
   <td class="heading" width="20"><img src="inc/images/delete_icon.gif" width="14" height="15" /></td>
  </tr>
 <?php
-$q2_base = "SELECT SQL_CALC_FOUND_ROWS id, tweet_content, time_to_post FROM " . DB_PREFIX . "scheduled_tweets WHERE owner_id='" . $db->prep($q1a['id']) . "' ORDER BY time_to_post ASC ";
+$q2_base = "SELECT SQL_CALC_FOUND_ROWS id, tweet_content, time_to_post, everyday FROM " . DB_PREFIX . "scheduled_tweets WHERE owner_id='" . $db->prep($q1a['id']) . "' ORDER BY time_to_post ASC ";
 
 //Pagination include
 $js_page_func = 'ajax_tweet_settings_set_page';
@@ -103,6 +138,7 @@ if ( ($_REQUEST['a'] == 'edittweet') and ($_REQUEST['edittweet_id'] == $q2a['id'
  <tr>
   <td><?=date(TIMESTAMP_FORMAT,strtotime($q2a['time_to_post']))?></td>
   <td><?=htmlspecialchars($q2a['tweet_content'])?></td>
+  <td><?= sched($q2a['everyday']);?></td>
   <td><a href="javascript:ajax_tweet_settings_edit_tweet_load('<?=$q2a['id']?>');">Edit</a></td>
   <td><a href="javascript:ajax_tweet_settings_del_tweet('<?=$q2a['id']?>','<?=$page_switch?>');"><img src="inc/images/delete_icon.gif" width="14" height="15" /></a></td>
  </tr>

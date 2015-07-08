@@ -21,7 +21,7 @@ if (mainFuncs::is_logged_in() != true) {
   $connection = new TwitterOAuth($ap_creds['consumer_key'], $ap_creds['consumer_secret'], $q1a['oauth_token'], $q1a['oauth_token_secret']);
   $content = $connection->get('account/verify_credentials');
 
-  if ($connection->http_code == 200) {
+  if ($connection->getLastHttpCode() == 200) {
    //Update DB
    $tw_user = array('id' => $q1a['id'],
                   'profile_image_url' => $content->profile_image_url,
