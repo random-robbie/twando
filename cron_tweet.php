@@ -144,7 +144,7 @@ if ($run_cron == true) {
  echo mainFuncs::push_response(32);
 
 //End of run cron
-}
+
 
 include('inc/include_bottom.php');
 ?>
