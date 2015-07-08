@@ -17,7 +17,6 @@ Known Issues
 When searching user based there are errors showing but not affecting it working.
 appears to be due to script getting users last tweet but if they are protected it's value is not available
 
-
 Requirements
 ======
 

@@ -77,8 +77,8 @@ Your currently scheduled tweets are shown below:
 <table class="data_table">
  <tr>
   <td class="heading" width="190">Time to Post</td>
-  <td class="heading">Tweet Content</td>
   <td class="heading" width="50">Schedule</td>
+  <td class="heading">Tweet Content</td>
   <td class="heading" width="50">Edit</td>
   <td class="heading" width="20"><img src="inc/images/delete_icon.gif" width="14" height="15" /></td>
  </tr>
@@ -124,10 +124,20 @@ if ( ($_REQUEST['a'] == 'edittweet') and ($_REQUEST['edittweet_id'] == $q2a['id'
   </script>
 
   </td>
+  <td><select name="everyday" id="everyday">
+  <option value="0" <?php if ($q2a['everyday'] == 0) { echo "selected";}?>>Once</option>
+  <option value="1" <?php if ($q2a['everyday'] == 1) { echo "selected";}?>>24 Hours</option>
+  <option value="2" <?php if ($q2a['everyday'] == 2) { echo "selected";}?>>48 Hours</option>
+  <option value="3" <?php if ($q2a['everyday'] == 3) { echo "selected";}?>>72 Hours</option>
+  <option value="4" <?php if ($q2a['everyday'] == 4) { echo "selected";}?>>1 Week</option>
+  <option value="5" <?php if ($q2a['everyday'] == 5) { echo "selected";}?>>2 Week</option>
+  <option value="6" <?php if ($q2a['everyday'] == 6) { echo "selected";}?>>3 Week</option>
+  <option value="7" <?php if ($q2a['everyday'] == 7) { echo "selected";}?>>1 Month</option></td>
   <td>
   <textarea name="tweet_content2" id="tweet_content2" class="input_box_style" style="height: 70px; width: 400px;" onkeyup="$('#count_box').val($('#tweet_content2').val().length); $('#tweet_content').val($('#tweet_content2').val());" onmouseout="$('#count_box').val($('#tweet_content2').val().length); $('#tweet_content').val($('#tweet_content2').val());" ><?=$q2a['tweet_content']?></textarea><br />
   Characters: <input type="text" name="count_box" id="count_box" size="3" value="<?=strlen($q2a['tweet_content'])?>" class="input_box_style" style="width: 30px;"  />
   </td>
+ 
   <td><a href="javascript:ajax_tweet_settings_update('tab2','edittweetsave');">Save</a></td>
   <td><a href="javascript:ajax_tweet_settings_del_tweet('<?=$q2a['id']?>','<?=$page_switch?>');"><img src="inc/images/delete_icon.gif" width="14" height="15" /></a></td>
  </tr>
@@ -137,8 +147,8 @@ if ( ($_REQUEST['a'] == 'edittweet') and ($_REQUEST['edittweet_id'] == $q2a['id'
   ?>
  <tr>
   <td><?=date(TIMESTAMP_FORMAT,strtotime($q2a['time_to_post']))?></td>
+  <td><?= sched ($q2a['everyday']);?></td>
   <td><?=htmlspecialchars($q2a['tweet_content'])?></td>
-  <td><?= sched($q2a['everyday']);?></td>
   <td><a href="javascript:ajax_tweet_settings_edit_tweet_load('<?=$q2a['id']?>');">Edit</a></td>
   <td><a href="javascript:ajax_tweet_settings_del_tweet('<?=$q2a['id']?>','<?=$page_switch?>');"><img src="inc/images/delete_icon.gif" width="14" height="15" /></a></td>
  </tr>

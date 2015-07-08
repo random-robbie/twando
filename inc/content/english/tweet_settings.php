@@ -49,6 +49,7 @@ if ($q1a['id'] == "")  {
 <form method="post" action="" name="edittweet" id="edittweet">
  <input type="hidden" name="a" id="a" value="edittweet" />
  <input type="hidden" name="edittweet_id" id="edittweet_id" value="" />
+  <input type="hidden" name="everyday" id="everyday" value="" />
 </form>
 
 <?php
