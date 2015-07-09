@@ -1,0 +1,13 @@
+stdClass Object
+(
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [code] => 160
+                    [message] => You've already requested to follow jjonathanh1.
+                )
+
+        )
+
+)

@@ -293,9 +293,10 @@ if ($run_cron == true) {
       follow request. $content->protected sometimes returns 1 not true as listed in the API guide.
       If already followed, should return 403 but check error message just in case 200 is returned
       */
-	  
+	  $output = print_r($content, true);
+	 file_put_contents('file.txt', $output);
       $protected_acc = 0;
-      if (isset($content->protected) or (preg_match("/already requested to follow/i",$content->errors->message)) ) {
+      if (!empty($content->protected) or ($content->errors[0]->code == "160"))  {
        $protected_acc = 1;
       }
 
@@ -381,12 +382,11 @@ if ($run_cron == true) {
        $pass_ids = substr($pass_ids,0,-1);
 
        //Run lookup now
-       $content = "";
-       $content = $connection->post('users/lookup', array('user_id' => $pass_ids));
-	   //$content2 = print_r($content, true);
-		//file_put_contents('file.log', $content2);
-       if ($content) {
-        foreach ($content as $user_row) {
+      
+       $newcontent = $connection->post('users/lookup', array('user_id' => $pass_ids));
+		//if api throws an error thought best to leave this for the next run.
+       if (empty($newcontent->errors) ) {
+        foreach ($newcontent as $user_row) {
 		
          //Cache user
          $tw_user_cache = array(
