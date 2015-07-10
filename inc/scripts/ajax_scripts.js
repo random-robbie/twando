@@ -40,8 +40,15 @@ function ajax_tweet_settings_tab(tab_id) {
 
 //Update data tweet settings page
 function ajax_tweet_settings_update(tab_id,form_id) {
- var form_data = $("#" + form_id).serialize() + '&update_type=update_data&form_id=' + form_id + '&tab_id=' + tab_id + '&page_id=' +  $('#page_id').val() + '&twitter_id=' + $('#twitter_id').val() + '&everyday=' + $('#everyday').val();
- $("#update_div").html(ajax_load).load('inc/ajax/ajax.tweet_settings.php',form_data);
+	if (form_id == "edittweetsave") {
+		var form_data = $("#" + form_id).serialize() + '&update_type=update_data&form_id=' + form_id + '&tab_id=' + tab_id + '&page_id=' +  $('#page_id').val() + '&twitter_id=' + $('#twitter_id').val() + '&everyday=' + $('#everyday').val();
+    $("#update_div").html(ajax_load).load('inc/ajax/ajax.tweet_settings.php',form_data);
+	} else {
+		var form_data2 = $("#" + form_id).serialize() + '&update_type=update_data&form_id=' + form_id + '&tab_id=' + tab_id + '&page_id=' +  $('#page_id').val() + '&twitter_id=' + $('#twitter_id').val();
+	$("#update_div").html(ajax_load).load('inc/ajax/ajax.tweet_settings.php',form_data2);
+  }
+ 
+ 
  
 }
 
