@@ -364,10 +364,10 @@ class cronFuncs {
   //Friends and followers
   $return_array['fw_remaining'] = $rate_con->resources->followers->{'/followers/ids'}->remaining;
   $return_array['fw_limit'] = $rate_con->resources->followers->{'/followers/ids'}->limit;
-  $return_array['fw_reset'] = $rate_con->resources->followers->{'/followers/ids'}->reset - mktime();
+  $return_array['fw_reset'] = $rate_con->resources->followers->{'/followers/ids'}->reset - time();
   $return_array['fr_remaining'] = $rate_con->resources->friends->{'/friends/ids'}->remaining;
   $return_array['fr_limit'] = $rate_con->resources->friends->{'/friends/ids'}->limit;
-  $return_array['fr_reset'] = $rate_con->resources->friends->{'/friends/ids'}->reset - mktime();
+  $return_array['fr_reset'] = $rate_con->resources->friends->{'/friends/ids'}->reset - time();
 
   //Users
   $return_array['us_remaining'] = $rate_con->resources->users->{'/users/show/:id'}->remaining;
