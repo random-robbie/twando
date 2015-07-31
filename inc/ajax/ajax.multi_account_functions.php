@@ -124,12 +124,13 @@ if (mainFuncs::is_logged_in() != true) {
 	 else { 
    echo "FAILED";
    exit();
+   break;
 }
 	}
 	}
 	
 	
-   break;
+   
   //End of tab switch
   }
 
