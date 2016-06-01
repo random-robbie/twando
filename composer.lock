@@ -5,19 +5,20 @@
         "This file is @generated automatically"
     ],
     "hash": "5c3369ff0db9bd8f6e95055068ad82fa",
+    "content-hash": "a8fd9dc356443f65140c0eddb6a09bce",
     "packages": [
         {
             "name": "abraham/twitteroauth",
-            "version": "0.5.3",
+            "version": "0.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/abraham/twitteroauth.git",
-                "reference": "c72c778c043220e29b81edbc0b521a5dd553e891"
+                "reference": "1c05f38b7780c9e6d3938b3f2ac2f3fd9d810825"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/abraham/twitteroauth/zipball/c72c778c043220e29b81edbc0b521a5dd553e891",
-                "reference": "c72c778c043220e29b81edbc0b521a5dd553e891",
+                "url": "https://api.github.com/repos/abraham/twitteroauth/zipball/1c05f38b7780c9e6d3938b3f2ac2f3fd9d810825",
+                "reference": "1c05f38b7780c9e6d3938b3f2ac2f3fd9d810825",
                 "shasum": ""
             },
             "require": {
@@ -25,9 +26,9 @@
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "phpmd/phpmd": "2.*",
-                "phpunit/phpunit": "4.*",
-                "squizlabs/php_codesniffer": "2.*"
+                "phpmd/phpmd": "2.2.*",
+                "phpunit/phpunit": "4.7.*",
+                "squizlabs/php_codesniffer": "2.3.*"
             },
             "type": "library",
             "autoload": {
@@ -58,7 +59,7 @@
                 "social",
                 "twitter"
             ],
-            "time": "2015-03-31 15:39:00"
+            "time": "2015-08-18 15:56:04"
         }
     ],
     "packages-dev": [],

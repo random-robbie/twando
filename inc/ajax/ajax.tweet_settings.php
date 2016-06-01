@@ -54,6 +54,10 @@ if (mainFuncs::is_logged_in() != true) {
      $response_msg = mainFuncs::push_response(13);
     } else {
      $response_msg = mainFuncs::push_response(14);
+	 $myfile = fopen("../../error.txt", "w") or die("Unable to open file!");
+	 $results = print_r($connection, true);
+	 fwrite($myfile, $results);
+	 fclose($myfile);
     }
    }
 

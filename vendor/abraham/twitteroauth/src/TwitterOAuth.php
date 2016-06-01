@@ -19,7 +19,7 @@ class TwitterOAuth extends Config
     const API_HOST = 'https://api.twitter.com';
     const UPLOAD_HOST = 'https://upload.twitter.com';
 
-    /** var Response details about the result of the last request */
+    /** @var Response details about the result of the last request */
     private $response;
     /** @var string|null Application bearer token */
     private $bearer;
@@ -132,14 +132,15 @@ class TwitterOAuth extends Config
         $this->response->setApiPath($path);
         $url = sprintf('%s/%s', self::API_HOST, $path);
         $result = $this->oAuthRequest($url, 'POST', $parameters);
-        if ($this->getLastHttpCode() == 200) {
-            parse_str($result, $response);
-            $this->response->setBody($response);
 
-            return $response;
-        } else {
+        if ($this->getLastHttpCode() != 200) {
             throw new TwitterOAuthException($result);
         }
+
+        parse_str($result, $response);
+        $this->response->setBody($response);
+
+        return $response;
     }
 
     /**
@@ -188,6 +189,32 @@ class TwitterOAuth extends Config
     public function post($path, array $parameters = array())
     {
         return $this->http('POST', self::API_HOST, $path, $parameters);
+    }
+
+    /**
+     * Make DELETE requests to the API.
+     *
+     * @param string $path
+     * @param array  $parameters
+     *
+     * @return array|object
+     */
+    public function delete($path, array $parameters = array())
+    {
+        return $this->http('DELETE', self::API_HOST, $path, $parameters);
+    }
+
+    /**
+     * Make PUT requests to the API.
+     *
+     * @param string $path
+     * @param array  $parameters
+     *
+     * @return array|object
+     */
+    public function put($path, array $parameters = array())
+    {
+        return $this->http('PUT', self::API_HOST, $path, $parameters);
     }
 
     /**
@@ -268,7 +295,6 @@ class TwitterOAuth extends Config
         $options = array(
             // CURLOPT_VERBOSE => true,
             CURLOPT_CAINFO => __DIR__ . DIRECTORY_SEPARATOR . 'cacert.pem',
-            CURLOPT_CAPATH => __DIR__,
             CURLOPT_CONNECTTIMEOUT => $this->connectionTimeout,
             CURLOPT_HEADER => true,
             CURLOPT_HTTPHEADER => array('Accept: application/json', $authorization, 'Expect:'),
@@ -291,30 +317,31 @@ class TwitterOAuth extends Config
 
         switch ($method) {
             case 'GET':
-                if (!empty($postfields)) {
-                    $options[CURLOPT_URL] .= '?' . Util::buildHttpQuery($postfields);
-                }
                 break;
             case 'POST':
                 $options[CURLOPT_POST] = true;
                 $options[CURLOPT_POSTFIELDS] = Util::buildHttpQuery($postfields);
                 break;
+            case 'DELETE':
+                $options[CURLOPT_CUSTOMREQUEST] = 'DELETE';
+                break;
+            case 'PUT':
+                $options[CURLOPT_CUSTOMREQUEST] = 'PUT';
+                break;
         }
+
+        if (in_array($method, ['GET', 'PUT', 'DELETE']) && !empty($postfields)) {
+            $options[CURLOPT_URL] .= '?' . Util::buildHttpQuery($postfields);
+        }
+
 
         $curlHandle = curl_init();
         curl_setopt_array($curlHandle, $options);
         $response = curl_exec($curlHandle);
 
-        $curlErrno = curl_errno($curlHandle);
-        switch ($curlErrno) {
-            case 28:
-                throw new TwitterOAuthException('Request timed out.');
-            case 51:
-                throw new TwitterOAuthException('The remote servers SSL certificate or SSH md5 fingerprint failed validation.');
-            case 56:
-                throw new TwitterOAuthException('Response from server failed or was interrupted.');
-            case 77:
-                throw new TwitterOAuthException('Problem with the SSL CA cert (path? access rights?)');
+        // Throw exceptions on cURL errors.
+        if (curl_errno($curlHandle) > 0) {
+            throw new TwitterOAuthException(curl_error($curlHandle), curl_errno($curlHandle));
         }
 
         $this->response->setHttpCode(curl_getinfo($curlHandle, CURLINFO_HTTP_CODE));
@@ -338,7 +365,7 @@ class TwitterOAuth extends Config
     private function parseHeaders($header)
     {
         $headers = array();
-        foreach (explode("\r\n", $header) as $i => $line) {
+        foreach (explode("\r\n", $header) as $line) {
             if (strpos($line, ':') !== false) {
                 list ($key, $value) = explode(': ', $line);
                 $key = str_replace('-', '_', strtolower($key));
