@@ -195,7 +195,7 @@ if (mainFuncs::is_logged_in() != true) {
        $content = $connection->get('followers/list',array('screen_name' => $_REQUEST['search_term'],'count' => '500'));
 	   if (isset($content->errors)) { $response_msg = mainFuncs::push_response(88);}
 	   $content2 = print_r($content, true);
-		file_put_contents('/var/www/twitter/file.log', $content2);
+		file_put_contents(''.TWOA_COMPOSER.'file.log', $content2);
        if ($content) {
         foreach ($content->users as $user_row)
 		{
