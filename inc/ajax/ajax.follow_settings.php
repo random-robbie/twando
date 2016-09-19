@@ -78,7 +78,7 @@ if (mainFuncs::is_logged_in() != true) {
         $tw_user = array(
                   'twitter_id' => $user_row->id,
                   'owner_id' => $_REQUEST['twitter_id'],
-                  'profile_image_url' => $user_row->profile_image_url,
+                  'profile_image_url' => $user_row->profile_image_url_https,
                   'screen_name' => $user_row->screen_name,
                   'type' => (int)$_REQUEST['follow_type'],
                   'last_updated' => date("Y-m-d H:i:s")
@@ -87,7 +87,7 @@ if (mainFuncs::is_logged_in() != true) {
         //We're making the API request anyway, might as well save caching time later
         $tw_user_cache = array(
                   'twitter_id' => $user_row->id,
-                  'profile_image_url' => $user_row->profile_image_url,
+                  'profile_image_url' => $user_row->profile_image_url_https,
                   'screen_name' => $user_row->screen_name,
                   'actual_name' => $user_row->name,
                   'followers_count' => $user_row->followers_count,
