@@ -27,7 +27,7 @@ if (empty($_POST['consumer_secret'])) { $_POST['consumer_secret'] = NULL; } ?>
 Before you can start using Twando, you must first register your application with Twitter.
 <ol>
  <li>First, <a href="install_tables.php">click here to install the MySQL tables</a> if you have not done so already.</li>
- <li>Next, visit <a href="https://dev.twitter.com/apps/new" target="_blank">https://dev.twitter.com/apps/new</a>;  you will need to sign in to your Twitter account to register an app.</li>
+ <li>Next, visit <a href="https://apps.twitter.com/app/new" target="_blank">https://apps.twitter.com/app/new</a>;  you will need to sign in to your Twitter account to register an app.</li>
  <li>Enter the values as demonstrated in <a href="inc/images/reg_ap.jpg" target="_blank">this picture</a>; your application URL is <b><?=BASE_LINK_URL?></b>; your callback URL is <b><?=BASE_LINK_URL . 'callback.php'?></b>.</li>
  <li>You will then be given a consumer key and consumer secret (<a href="inc/images/reg_ap2.jpg" target="_blank">example</a>). Enter these in the boxes below to complete the setup of your Twitter app.</li>
  <li>You must also make sure your application is set with <b>read/write access</b> on the settings page; <a href="inc/images/reg_ap3.jpg" target="_blank">click here to view</a>.</li>
