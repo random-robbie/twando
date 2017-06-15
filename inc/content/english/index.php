@@ -34,10 +34,10 @@ Before you can start using Twando, you must first register your application with
 </ol>
 <form method="post" action="<?=BASE_LINK_URL?>">
 Consumer Key:<br />
-<input type="text" name="consumer_key" size="20" class="input_box_style" value="<?=$_POST['consumer_key']?>" style="width: 350px;" />
+<input type="text" name="consumer_key" size="20" class="input_box_style" maxlength="50" value="<?=htmlentities($_POST['consumer_key'])?>" style="width: 350px;" />
 <br />
 Consumer Secret:<br />
-<input type="text" name="consumer_secret" size="20" class="input_box_style" value="<?=$_POST['consumer_secret']?>" style="width: 350px;"  />
+<input type="text" name="consumer_secret" size="20" class="input_box_style"  maxlength="50" value="<?=htmlentities($_POST['consumer_secret'])?>" style="width: 350px;"  />
 <br />
 <input type="submit" value="Save Values!" name="login" id="login" class="submit_button_style" />
 <input type="hidden" name="a" value="savekeys2" />
